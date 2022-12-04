@@ -1,0 +1,488 @@
+[
+    {
+      "schemaType": "Collection",
+      "name": "student_portal",
+      "defaultValue": "",
+      "description": "",
+      "fields": [
+        {
+          "schemaType": "Field",
+          "name": "_id",
+          "type": "ObjectId",
+          "required": true,
+          "unique": true,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "matric_number",
+          "type": "Integer",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        }
+      ]
+    },
+    {
+      "schemaType": "Collection",
+      "name": "User",
+      "type": "ObjectId",
+      "required": true,
+      "unique": true,
+      "defaultValue": "",
+      "description": "",
+      "index": 0,
+      "customProps": [],
+      "fields": [
+        {
+          "schemaType": "Field",
+          "name": "_id",
+          "type": "ObjectId",
+          "required": true,
+          "unique": true,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "name",
+          "type": "String",
+          "required": true,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "email",
+          "type": "String",
+          "required": true,
+          "unique": true,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        }
+      ]
+    },
+    {
+      "schemaType": "Collection",
+      "name": "movies",
+      "type": "ObjectId",
+      "required": 1,
+      "unique": 1,
+      "defaultValue": "",
+      "description": "",
+      "index": 0,
+      "customProps": [],
+      "fields": [
+        {
+          "schemaType": "Field",
+          "name": "_id",
+          "type": "ObjectId",
+          "required": 1,
+          "unique": 1,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "upload_at",
+          "type": "Date",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "movie_length",
+          "type": "Integer",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "user",
+          "type": "ObjectId",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "description",
+          "type": "String",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "movie_name",
+          "type": "String",
+          "required": 0,
+          "unique": 0,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        }
+      ]
+    },
+    {
+      "schemaType": "Collection",
+      "name": "Authenticated user",
+      "type": "ObjectId",
+      "required": 1,
+      "unique": 1,
+      "defaultValue": "",
+      "description": "",
+      "index": 0,
+      "customProps": [],
+      "fields": [
+        {
+          "schemaType": "Field",
+          "name": "_id",
+          "type": "ObjectId",
+          "required": 1,
+          "unique": 1,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "created_at",
+          "type": "Date",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "password",
+          "type": "String",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "last_name",
+          "type": "String",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "Matric_number",
+          "type": "Integer",
+          "required": true,
+          "unique": true,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "verified",
+          "type": "Boolean",
+          "required": 0,
+          "unique": 0,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "uploads",
+          "type": "ObjectId",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "last_login",
+          "type": "Date",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "email",
+          "type": "String",
+          "required": 0,
+          "unique": 0,
+          "defaultValue": "",
+          "description": "",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "schemaType": "Collection",
+      "name": "Un authenticated_users",
+      "type": "ObjectId",
+      "required": true,
+      "unique": true,
+      "defaultValue": "",
+      "description": "",
+      "index": 0,
+      "customProps": [],
+      "fields": [
+        {
+          "schemaType": "Field",
+          "name": "session_data",
+          "type": "Date",
+          "required": true,
+          "unique": true,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "ip",
+          "type": "Integer",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "cache",
+          "type": "Object",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        }
+      ]
+    },
+    {
+      "schemaType": "Collection",
+      "name": "comment",
+      "type": "ObjectId",
+      "required": true,
+      "unique": true,
+      "defaultValue": "",
+      "description": "",
+      "index": 0,
+      "customProps": [],
+      "fields": [
+        {
+          "schemaType": "Field",
+          "name": "_id",
+          "type": "ObjectId",
+          "required": 1,
+          "unique": 1,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "user",
+          "type": "ObjectId",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "date",
+          "type": "Date",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        }
+      ]
+    },
+    {
+      "schemaType": "Collection",
+      "name": "dislike",
+      "type": "ObjectId",
+      "required": 1,
+      "unique": 1,
+      "defaultValue": "",
+      "description": "",
+      "index": 0,
+      "customProps": [],
+      "fields": [
+        {
+          "schemaType": "Field",
+          "name": "_id",
+          "type": "ObjectId",
+          "required": true,
+          "unique": true,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "user",
+          "type": "ObjectId",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "date",
+          "type": "Date",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        }
+      ]
+    },
+    {
+      "schemaType": "Collection",
+      "name": "like",
+      "type": "ObjectId",
+      "required": true,
+      "unique": true,
+      "defaultValue": "",
+      "description": "",
+      "index": 0,
+      "customProps": [],
+      "fields": [
+        {
+          "schemaType": "Field",
+          "name": "_id",
+          "type": "ObjectId",
+          "required": true,
+          "unique": true,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        }
+      ]
+    },
+    {
+      "schemaType": "Collection",
+      "name": "view",
+      "type": "ObjectId",
+      "required": true,
+      "unique": true,
+      "defaultValue": "",
+      "description": "",
+      "index": 0,
+      "customProps": [],
+      "fields": [
+        {
+          "schemaType": "Field",
+          "name": "_id",
+          "type": "ObjectId",
+          "required": 1,
+          "unique": 1,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "user",
+          "type": "ObjectId",
+          "required": 0,
+          "unique": 0,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "date",
+          "type": "Date",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        },
+        {
+          "schemaType": "Field",
+          "name": "ip",
+          "type": "Integer",
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "description": "",
+          "index": 0,
+          "customProps": []
+        }
+      ]
+    }
+  ]
+                  
