@@ -18,14 +18,14 @@ This project was create in Visual Studio Code and the following Technologies wer
 * View and interact with the platform
 * View all movies
 * Register to view more details
-**Authenticated Users** - A A user who is registered on the platform is able to :
+**Authenticated Users** - A user who is registered on the platform is able to :
 * Have full access to the platform
 * upload of short movies (not more than 15 minutes)
 * Comments, react and share movies
 * Show usage example to users
 * Save data and come back to download
 # Product Specialiazation
-* Mobbile Phones
+* Mobile Phones
 * Ipads
 * Tablets
 # Usage
