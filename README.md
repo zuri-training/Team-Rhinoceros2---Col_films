@@ -64,19 +64,47 @@ _git push origin branchName_ - This creates the branch remotely and pushes to th
 10. Go to Github and create a new pull request to the main branch. It will then be reviewed and merged into the master.
 
 # Contributers
-**Joseph Udoka** - Team Lead <br>
+1. **Joseph Udoka** - Team Lead <br>
 Github- https://github.com/tochicode <br>
 Track - Product Design<br>
-Email - @gmail.com<br>
-**Desma Achieng** -  <br>
+Email - josephudokae@gmail.com<br>
+2. **Nmesoma Ofortube** - Assistant Team lead <br>
+Github-  https://github.com/xxx<br>
+Track - xxx<br>
+Email - xxxg@gmail.com<br>
+2. **Daniel Andara Innocent** - Assistant Team lead <br>
+Github-  https://github.com/xxx<br>
+Track - xxx<br>
+Email - xxxg@gmail.com<br>
+2. **Desma Achieng**   <br>
 Github- https://github.com/desmajoy <br>
 Track - Front end<br>
 Email - desmaachieng@gmail.com<br>
-
+3. **Janet Busayo**  <br>
+Track - Product Design<br>
+Email - busayojanet2017@gmail.com<br>
+4. **Itan**  <br>
+Track - Product Design<br>
+Email - itandesigns@gmail.com<br>
+5. **Aduralere Ashade**  <br>
+Track - Product Design<br>
+Email - aduraleresgune@gmail.com<br>
+6. **Fayemi Charity**  <br>
+Track - Product Design<br>
+Email - fayemiifeoluwa@gmail.com<br>
+7. **Olorunsola Iwanefun** <br>
+Track - Product Design<br>
+Email - iwasola22@gmail.com<br>
+8. **Ikwuegbu Maryjustine Chinyere**  <br>
+Track - Product Design<br>
+Email - maryjustine214@gmail.com<br>
+9. **Hannah Inalegwu**  <br>
+Track - Product Design<br>
+Email - inalegwuhannah@gmail.com<br>
 # Documentation
-A more detailed documentation on the updates,features and details of this project can be found 
+A more detailed documentation on the updates,features and details of this project can be found [Here](https://docs.google.com/document/u/0/d/1wRj2RmZevcUaIDORZ8hcdvbOzsZ7VIZl6JaFopN_Lfs/mobilebasic "Here")
 # Design
-The design of the project was created by the Product Design Team on **FIGMA**. The link can be found 
+The design of the project was created by the Product Design Team on **FIGMA**. The link can be found [Here](https://www.figma.com/file/oregihmBx4PMU4guRUU5RA/Mood-board-%26-Style-guide?node-id=41%3A2 "Here")
 # Acknowledgement
 A big appreciation to the ZURI TEAM X Ingressive For Good Team for sponsoring the training and project phase for Cohort II
 
