@@ -11,7 +11,7 @@ This project was create in **Visual Studio Code** and the following Technologies
 * Design:
 **Figma**
 * FrontEnd:
-**HTMLT**,**CSS**, **JAVASCRIPT**
+**HTML**,**CSS**, **JAVASCRIPT**
 * Backend:
 **NODEJS**
 * Database:
