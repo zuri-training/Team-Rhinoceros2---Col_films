@@ -143,7 +143,9 @@ Email - yasmarfaq@yahoo.com
 Track: Frontend <br>
 Email - vinaprisca@gmail.com
 13. **oladetohun oluwakorede Emmanuel**
+
     Track -Fullstack Nodejs
+    
     Email: oladetohunoluwakorede@gmail.com
 # Documentation
 A more detailed documentation on the updates,features and details of this project can be found [Here](https://docs.google.com/document/u/0/d/1wRj2RmZevcUaIDORZ8hcdvbOzsZ7VIZl6JaFopN_Lfs/mobilebasic "Here")
