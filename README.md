@@ -43,25 +43,56 @@ This project was create in **Visual Studio Code** and the following Technologies
 8. Have full access to view movies, upload movies, share , comment and like movies
 # Project Status
 Project is in: _progress_
-# Collaboration
-Team Rhinoceros2 members; Follow the following steps to collborate:
-1. Visit the Repository to the Project on Github Website: [Col Films](https://github.com/zuri-training/Team-Rhinoceros2---Col_films "Col Films")
-2. Fork the repository: Click the "Fork" button on the upper right corner of the Repo page.
-3. Make a local clone: Click on the "Code" button on the Repo page Copy the URL for the forked Repo  _"https://github.com/github_username/Team-Rhinoceros2---Col_films"_. Create a Folder on your Local machine / Computer for the project Workspace. Open Command prompt / Terminal in the same folder location In your Terminal, type:_git clone https://github.com/github_username/Team-Rhinoceros2---Col_films_
-4. Open terminal and set upstream branch: _git remote add upstream https://github.com/zuri-training/Team-Rhinoceros2---Col_films_
-5. Pull upstream to get up to date with the original repo: _git pull upstream main_
-6. Create a new branch for the task you are working on :
- _git checkout -b branchName_
-(Make sure your branchName is descriptive in context to the feature you are working on. Also be sure to check which branch you are on using git status before you begin working)
-7. When you're done with your task, do:
-_git add_
-* Commit your work with a message:
-_git commit -m "message"_
-8. To avoid conflicts:
- _git pull upstream main_
-9.Then push your branch:
-_git push origin branchName_ - This creates the branch remotely and pushes to that branch on the Github
-10. Go to Github and create a new pull request to the main branch. It will then be reviewed and merged into the master.
+# Contribution Guide
+Please ensure your codes and changes are properly tested.
+Team Rhinoceros2 members; Follow the following steps to contribute:
+
+Fork the Project Repo
+Fork this repository to get a personal copy on your github account
+
+Clone the Repo to your local machine using
+To clone the forked repository to your local machine, open command prompt and run:
+
+git clone https://github.com/github_username/Team-Rhinoceros2---Col_films
+
+Set Upstream Remote
+Set your upstream remote so you can pull changes from upstream to update your repo by running:
+
+git remote add upstream https://github.com/github_username/Team-Rhinoceros2---Col_films
+
+Creating Feature Branch
+First switch to the dev branch by running:
+
+git checkout dev
+
+Then create the feature branch (the branch you will be pushing you work to) by running:
+
+git checkout -b active
+
+NB: For consistency, I would recommend we all use the above naming scheme and make sure to create any new branch from the dev branch and not main branch. Ensure your local dev branch is up to date with upstream remote dev branch before creating new branch.
+
+Set up Development Environment
+Tip: Check the Getting Started guide below
+
+Making Changes
+Make all your changes on your feature branch, add and commit your changes using a concise descriptive commit message
+
+Pulling Updates from Remote
+Pull latest updates from Upstream branch by running:
+
+git pull upstream dev
+
+NB: If conflicts are encountered after pulling changes, please resolve them locally first before committing
+
+Pushing Changes
+Publish your Feature Branch and changes to origin by running:
+
+git push origin active
+
+Pull Request
+Go to Github, open a Pull Request to the Upstream Remote dev branch and request a review by tagging team members
+
+NB: Add a proper description of the changes made when making a Pull Request for easy review.
 
 # Contributers
 1. **Joseph Udoka** - Team Lead <br>
