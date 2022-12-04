@@ -19,7 +19,7 @@ This project was create in **Visual Studio Code** and the following Technologies
 # Features
 **Unauthenticated Users** - A user who is unregistered on the platform is able to :
 * To visit the platform and view basic information about the platform
-* View and interact with the documentation documentation
+* View and interact with the documentation 
 * View all available movies
 * Register to view more details <br>
 **Authenticated Users** - A user who is registered on the platform is able to :
