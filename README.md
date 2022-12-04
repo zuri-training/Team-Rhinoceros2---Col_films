@@ -101,6 +101,9 @@ Email - maryjustine214@gmail.com<br>
 9. **Hannah Inalegwu**  <br>
 Track - Product Design<br>
 Email - inalegwuhannah@gmail.com<br>
+10. **Ali Marwana Abdou**  <br>
+Track - Full Stack NodeJS<br>
+Email - ali.marwanaabdou@etu.uae.ac.ma<br>
 # Documentation
 A more detailed documentation on the updates,features and details of this project can be found [Here](https://docs.google.com/document/u/0/d/1wRj2RmZevcUaIDORZ8hcdvbOzsZ7VIZl6JaFopN_Lfs/mobilebasic "Here")
 # Design
