@@ -43,53 +43,54 @@ This project was create in **Visual Studio Code** and the following Technologies
 8. Have full access to view movies, upload movies, share , comment and like movies
 # Project Status
 Project is in: _progress_
-# Contribution Guide
+
+# CONTRIBUTION GUIDE
 Please ensure your codes and changes are properly tested.
 Team Rhinoceros2 members; Follow the following steps to contribute:
 
-Fork the Project Repo
+Fork the Project Repo <br>
 Fork this repository to get a personal copy on your github account
 
-Clone the Repo to your local machine using
+Clone the Repo to your local machine using<br>
 To clone the forked repository to your local machine, open command prompt and run:
 
 git clone https://github.com/github_username/Team-Rhinoceros2---Col_films
 
-Set Upstream Remote
+Set Upstream Remote <br>
 Set your upstream remote so you can pull changes from upstream to update your repo by running:
 
 git remote add upstream https://github.com/github_username/Team-Rhinoceros2---Col_films
 
-Creating Feature Branch
-First switch to the dev branch by running:
+Creating Feature Branch <br>
+First switch to the dev branch by running: <br>
 
 git checkout dev
 
 Then create the feature branch (the branch you will be pushing you work to) by running:
 
-git checkout -b active
+git checkout -b active <br>
 
 NB: For consistency, I would recommend we all use the above naming scheme and make sure to create any new branch from the dev branch and not main branch. Ensure your local dev branch is up to date with upstream remote dev branch before creating new branch.
 
-Set up Development Environment
+Set up Development Environment <br>
 Tip: Check the Getting Started guide below
 
-Making Changes
+Making Changes <br>
 Make all your changes on your feature branch, add and commit your changes using a concise descriptive commit message
 
-Pulling Updates from Remote
+Pulling Updates from Remote <br>
 Pull latest updates from Upstream branch by running:
 
-git pull upstream dev
+git pull upstream dev <br>
 
 NB: If conflicts are encountered after pulling changes, please resolve them locally first before committing
 
-Pushing Changes
+Pushing Changes <br>
 Publish your Feature Branch and changes to origin by running:
 
-git push origin active
+git push origin active 
 
-Pull Request
+Pull Request <br>
 Go to Github, open a Pull Request to the Upstream Remote dev branch and request a review by tagging team members
 
 NB: Add a proper description of the changes made when making a Pull Request for easy review.
