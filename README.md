@@ -2,8 +2,8 @@
 # Background Information
 This platform that operates like a movie streaming platform but for short movies created by college students
 # About the Project
-*Col films is a web application platform that allows users to sstream short videos of about 15 minutes created by college students.
-*Col films is created exclusively for college students to create videos, share videos, like and comment on the videos.
+* Col films is a web application platform that allows users to sstream short videos of about 15 minutes created by college students.
+* Col films is created exclusively for college students to create videos, share videos, like and comment on the videos.
 # Directory Structure For Server Deployment
 # Instructions For Deployment
 # Technologies Used
