@@ -95,7 +95,7 @@ Go to Github, open a Pull Request to the Upstream Remote dev branch and request 
 
 NB: Add a proper description of the changes made when making a Pull Request for easy review.
 
-# Contributers
+# Contributors
 1. **Joseph Udoka** - Team Lead <br>
 Github- https://github.com/tochicode <br>
 Track - Product Design<br>
@@ -142,11 +142,12 @@ Email - yasmarfaq@yahoo.com
 12. **Ogechi Vinaprisca Amadi** <br>
 Track: Frontend <br>
 Email - vinaprisca@gmail.com
+13. **oladetohun oluwakorede Emmanuel**
+    Track -Fullstack Nodejs
+    Email: oladetohunoluwakorede@gmail.com
 # Documentation
 A more detailed documentation on the updates,features and details of this project can be found [Here](https://docs.google.com/document/u/0/d/1wRj2RmZevcUaIDORZ8hcdvbOzsZ7VIZl6JaFopN_Lfs/mobilebasic "Here")
 # Design
 The design of the project was created by the Product Design Team on **FIGMA**. The link can be found [Here](https://www.figma.com/file/oregihmBx4PMU4guRUU5RA/Mood-board-%26-Style-guide?node-id=41%3A2 "Here")
 # Acknowledgement
 A big appreciation to the ZURI TEAM X Ingressive For Good Team for sponsoring the training and project phase for Cohort II
-
-
