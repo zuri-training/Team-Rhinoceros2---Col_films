@@ -4,6 +4,7 @@
 <line x1="-0.21426" y1="431.548" x2="893.786" y2="7.54823" stroke="black"/>
 <line x1="893.783" y1="432.451" x2="-0.850011" y2="1.86756" stroke="black"/>
 <rect width="894" height="432" fill="url(#pattern0)"/>
+<path d="M400.333 256V244.133C400.333 229.4 410.766 223.366 423.533 230.733L433.833 236.666L444.133 242.6C456.9 249.966 456.9 262.033 444.133 269.4L433.833 275.333L423.533 281.266C410.766 288.633 400.333 282.6 400.333 267.866V256Z" stroke="#FFF9F9" stroke-width="5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
