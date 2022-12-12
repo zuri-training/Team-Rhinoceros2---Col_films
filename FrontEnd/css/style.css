@@ -322,3 +322,47 @@ div.cont input[type="img"]{
 div.container {
   text-align: center;
 }
+.go-back a {
+  color: #7b42f6;
+}
+
+/* Sign Up 4 Page*/
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 30px;
+  flex-basis: 200px;
+  background-color:black;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  color: black;
+  height: 50px;
+}
+.verification-btn{
+  max-width: 1000px;
+  margin-top: 70px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 29%;
+  
+
+}
+.verification-btn input[type="submit"]{
+  background-color: plum;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 50%;
+}
