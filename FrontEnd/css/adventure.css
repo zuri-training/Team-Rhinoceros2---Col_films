@@ -37,14 +37,10 @@ label {
   padding: 20px;
   border-radius: 10px;
   margin-left: 500px;
-  
-  
-  
 }
 
 .signin-form h1 {
   text-align: left;
-  
 }
 
 .signin-form label {
@@ -62,7 +58,7 @@ label {
   border: 1px solid white;
   border-bottom: 2px solid #ccc;
   outline: none;
-  border-radius: 8px; 
+  border-radius: 8px;
   background-color: black;
   margin-bottom: 10px;
   text-indent: 1cm;
@@ -86,7 +82,7 @@ label {
   font-size: 18px;
   cursor: pointer;
   border: none;
-    border-radius: 8px;
+  border-radius: 8px;
 }
 .signin-form input[type="checkbox"] {
   margin-bottom: 30px;
@@ -173,74 +169,67 @@ label {
 /*Verification*/
 
 .underline-1 {
-border: 5px solid blue;
-border-radius: 20px;
-width: 20%;
-display: inline-block;
-margin-right: 150px;
-margin-left: 100px;
-
-
-
+  border: 5px solid blue;
+  border-radius: 20px;
+  width: 20%;
+  display: inline-block;
+  margin-right: 150px;
+  margin-left: 100px;
 }
 .underline-2 {
-	border: 5px solid transparent;
-border-radius: 20px;
-width: 20%;
-display: inline-block;
-border-color: blue;
-margin-right: 150px;
-
-
-
+  border: 5px solid transparent;
+  border-radius: 20px;
+  width: 20%;
+  display: inline-block;
+  border-color: blue;
+  margin-right: 150px;
 }
 .underline-3 {
-	border: 5px solid transparent;
-border-radius: 20px;
-width:20%;
-display: inline-block;
-border-color: blue;
-
+  border: 5px solid transparent;
+  border-radius: 20px;
+  width: 20%;
+  display: inline-block;
+  border-color: blue;
 }
 .verification-form {
-	max-width: 1000px;
-	margin: 0 auto;
-	background-color: black;
-	padding: 20px;
-	border-radius: 10px;
-  }
-  .verification-form h1,.verification-form p {
-	text-align: center;
-	margin-top: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+.verification-form h1,
+.verification-form p {
+  text-align: center;
+  margin-top: 50px;
   padding: 0ch;
-  }
+}
 
-  .verification-form input[type="text"] {
+.verification-form input[type="text"] {
   width: 100%;
   padding: 20px;
   border: 1px solid white;
   border-bottom: 2px solid #ccc;
   outline: none;
-  border-radius : 8px;
+  border-radius: 8px;
   background-color: black;
   margin-bottom: 10px;
   text-indent: 1cm;
- }
- .verification-form input[type="radio"] {
+}
+.verification-form input[type="radio"] {
+  width: 25%;
+  height: 20px;
+  border: 2px solid gray;
+  border-radius: 2px solid white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 0%;
+}
 
-		width: 25%;
-		height: 20px;
-		border: 2px solid gray;
-		border-radius: 2px solid white;
-		cursor: pointer;
-		margin-bottom: 10px;
-		margin-right: 0%;
-	  }
-	  
 .verification-form input[type="radio"]:checked {
-		background: gray;
-	  }
-    /* CSS for the dropdown menu */
+  background: gray;
+}
+/* CSS for the dropdown menu */
 .dropdown {
   width: 112%;
   height: 30px;
@@ -252,7 +241,6 @@ border-color: blue;
   border-color: white;
   border-radius: 8px;
   height: 60px;
-
 }
 
 .dropdown:hover {
@@ -281,30 +269,28 @@ border-color: blue;
   border-radius: 8px;
   width: 50%;
   margin: 0 auto;
-
-}	  
- /* sign in email page */
- .fpassword {
+}
+/* sign in email page */
+.fpassword {
   display: inline;
   text-align: right;
- }
+}
 
- /* Check your email page*/
- /* Add a style for the icon */
- div.container input[type="image"]{
+/* Check your email page*/
+/* Add a style for the icon */
+div.container input[type="image"] {
   font-size: 48px;
   color: wheat;
   background-color: blue;
   margin-top: 5%;
   border-radius: 50%;
-  
 }
 
 /* Add a style to center the icon on the page */
 div.cont {
   text-align: center;
 }
-div.cont input[type="img"]{
+div.cont input[type="img"] {
   background: black;
   color: white;
   min-width: 10px;
@@ -313,9 +299,6 @@ div.cont input[type="img"]{
   text-align: center;
   margin-left: 6px;
   position: absolute;
-  
-
-  
 }
 
 /* Add a style to center the icon on the page */
@@ -334,7 +317,7 @@ div.container {
   align-items: stretch;
   height: 30px;
   flex-basis: 200px;
-  background-color:black;
+  background-color: black;
 }
 .flex-container > div {
   background-color: #f1f1f1;
@@ -344,17 +327,15 @@ div.container {
   color: black;
   height: 50px;
 }
-.verification-btn{
+.verification-btn {
   max-width: 1000px;
   margin-top: 70px;
   background-color: black;
   padding: 20px;
   border-radius: 10px;
   margin-left: 29%;
-  
-
 }
-.verification-btn input[type="submit"]{
+.verification-btn input[type="submit"] {
   background-color: plum;
   border: none;
   color: white;
@@ -365,4 +346,78 @@ div.container {
   font-size: 16px;
   border-radius: 12px;
   width: 50%;
+}
+
+/*Change  Password*/
+/* Forgot Password Form */
+
+.change-password-form {
+  width: 900px;
+
+  margin: auto;
+
+  height: 300px;
+
+  padding: 20px;
+  margin-top: 5x;
+  margin-left: 9cm;
+}
+
+.changepassform-group {
+  margin-bottom: 15px;
+  width: 500px;
+}
+
+.changepassform-group label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+.change-password-form p {
+  font-size: larger;
+}
+
+.changepassform-group input[type="password"] {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid white;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  border-radius: 8px;
+  background-color: black;
+
+  text-indent: 1cm;
+}
+
+.changepassform-group input[type="submit"] {
+  background-color: plum;
+
+  color: white;
+
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 8px;
+  width: 6cm;
+
+  cursor: pointer;
+}
+.changepassform-group input[type="submit2"] {
+  background-color: gray;
+
+  color: white;
+
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 8px;
+  width: 5cm;
+  margin-left: 25pt;
+  cursor: pointer;
+}
+
+.changepassform-group input[type="submit"]:hover {
+  background-color: blue;
+}
+.changepassform-group input[type="submit2"]:hover {
+  background-color: blue;
 }
