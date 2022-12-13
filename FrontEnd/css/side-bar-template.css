@@ -1,0 +1,171 @@
+* {
+  font-family: "Poppins", sans-serif;
+  --background: #010103;
+  --primary-color: #7b42f6;
+  --primary-text: #fdfdfd;
+  ---button-inactive: #a781f9;
+  --button-hover: #a781f9;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--background);
+}
+a {
+  text-decoration: none;
+  color: var(--primary-text);
+}
+ul {
+  outline: none;
+  padding: 0;
+}
+li {
+  list-style: none;
+  color: var(--primary-text);
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--primary-text);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+/* search bar below is same as that in the help center take note */
+.search-bar {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #585860;
+  background: #010103;
+  border-radius: 10px;
+  display: flex;
+}
+#search {
+  width: 100%;
+  height: 100%;
+  background: none;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+/* this selecting setting is the same as the one in explore page  take note */
+select {
+  background: none;
+  border: none;
+  color: var(--primary-text);
+  outline: none;
+  font-size: 1rem;
+  padding: 0;
+}
+/* this section is for working on the navbar */
+.navbar-user {
+  width: 100%;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #585860;
+  padding: 0 3.75em;
+  position: fixed;
+}
+/* the navbar properties above is the same with the one on explore page */
+.logo-menu,
+.user-account,
+.search-account {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu-icon {
+  width: 34px;
+}
+.logo {
+  width: 70px;
+}
+.search-account {
+  width: 60%;
+}
+.side-bar {
+  width: 16.66%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3.5em;
+  /* justify-content: center; */
+  border-right: 1px solid #585860;
+}
+.side-bar-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0.6em;
+  margin: 2em 0;
+  cursor: pointer;
+}
+.side-bar-item-creator:hover,
+.side-bar-item:hover {
+  background-color: var(--primary-color);
+}
+.creator-navigation {
+  width: 100%;
+  height: 55%;
+  border-bottom: 1px solid #585860;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  padding-left: 3.75em;
+}
+.creator-settings {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  padding-left: 3.75em;
+}
+.side-bar-item-creator {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0.6em;
+  margin: 1em 0;
+  cursor: pointer;
+}
+.settings {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  padding-left: 2em;
+  display: none;
+}
+.setting-sub-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.6em;
+  margin: 0.5em 0;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.setting-sub-item img {
+  width: 20px;
+}
+
+.setting-sub-item:hover {
+  background-color: var(--primary-color);
+}
+.main-content-container {
+  padding: 6em 3em 3em 20%;
+}
