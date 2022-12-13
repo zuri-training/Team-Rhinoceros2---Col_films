@@ -78,6 +78,8 @@ select {
   border-bottom: 1px solid #585860;
   padding: 0 3.75em;
   position: fixed;
+  background-color: var(--background);
+  z-index: 1002;
 }
 /* the navbar properties above is the same with the one on explore page */
 .logo-menu,

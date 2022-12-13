@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playlist page</title>
+
+
+    <link rel="stylesheet" href="/FrontEnd/css/side-bar-template.css" />
+
+
+    <link rel="stylesheet" href="/FrontEnd/css/creatorsdashboard.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Creator's Dashboard Page</title>
+        <link rel="stylesheet" href="" />
+      </head>
+      <body>
+        <header>
+            <nav class="navbar-user">
+              <div class="logo-menu">
+                <img
+                  src="/FrontEnd/icons/menu-icon.svg"
+                  alt=""
+                  class="menu-icon"
+                />
+
+                <img
+                  src="/FrontEnd/images/glance-logo-main.svg"
+                  alt=""
+                  class="logo"
+                />
+              </div>
+
+              <div class="search-account">
+                <div class="search-bar">
+                    <img src="/FrontEnd/icons/search-icon.svg" alt="" />
+                    <input
+                      type="search"
+                      name="search"
+                      id="search"
+                      placeholder="Search"
+                    />
+                  </div>
+
+
+                  <div class="user-account">
+                    <select id="User account" class="user-list">
+                        <option value="">Jennifer Tilly</option>
+                        <option value="dog"></option>
+                        <option value="cat"></option>
+                        <option value="hamster"></option>
+                        <option value="parrot"></option>
+                        <option value="spider"></option>
+                        <option value="goldfish"></option>
+                      </select>
+                      <img
+                      src="/FrontEnd/images/nav-bar-avatar.svg"
+                      alt=""
+                      class="nav-icon"
+                    />
+                  </div>
+            </nav>
+          </header>
+        
+            <!-- SIDE BAR SECTION================================ -->
+          <section class="side-bar">
+            <div class="creator-navigation">
+
+
+                <div class="side-bar-item">
+                    <img src="/FrontEnd/icons/home.svg" alt="" class="side-bar-icon">
+                    <a href="" class="side-bar-link">Home</a>
+                </div>
+
+
+                <div class="side-bar-item">
+                    <img src="/FrontEnd/icons/video-icon-inactive.svg" alt="" class="side-bar-icon">
+                    <a href="" class="side-bar-link">Your video</a>
+                </div>
+
+
+
+                <div class="side-bar-item">
+                    <img src="/FrontEnd/icons/library-icon-inactive.svg" alt="" class="side-bar-icon">
+                    <a href="" class="side-bar-link">Libraries</a>
+                </div>
+
+
+
+                
+            </div>
+            <div class="creator-settings">
+                <div class="setting-container">
+                <div class="side-bar-item-creator">
+                    <img src="/FrontEnd/icons/creator-setting-icon.svg" alt="" class="side-bar-icon">
+                    <a href="" class="side-bar-link">Settings</a>
+                </div>
+
+                <div class="settings">
+                    <div class="setting-sub-item">
+                        <img src="/FrontEnd/icons/creator-setting-icon.svg" alt="" class="side-bar-icon">
+                        <a href="" class="side-bar-link">profile</a>
+                    </div>
+
+                    <div class="setting-sub-item">
+                        <img src="/FrontEnd/icons/notification-inactive.svg" alt="" class="side-bar-icon">
+                        <a href="" class="side-bar-link">Notification</a>
+                    </div>
+
+
+                    <div class="setting-sub-item">
+                        <img src="/FrontEnd/icons/privacy-inactive.svg" alt="" class="side-bar-icon">
+                        <a href="" class="side-bar-link">Privacy</a>
+                    </div>
+
+
+                    <div class="setting-sub-item">
+                        <img src="/FrontEnd/icons/password-icon-inactive.svg" alt="" class="side-bar-icon">
+                        <a href="" class="side-bar-link">password</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="side-bar-item-creator">
+                <img src="/FrontEnd/icons/help-icon.svg" alt="" class="side-bar-icon">
+                <a href="" class="side-bar-link">Help</a>
+            </div>
+
+
+
+            <div class="side-bar-item-creator">
+                <img src="/FrontEnd/icons/logout-inactive.svg" alt="" class="side-bar-icon">
+                <a href="" class="side-bar-link">Log Out</a>
+            </div>
+            </div>
+          </section>  
+
+
+          <section class="main-content-container">
+
+
+            <!-- user profile container ============== -->
+            <div class="user-profile-container">
+                <img src="/FrontEnd/images/user-profile.svg" alt="" class="user-profile.pic">
+                <div class="user-details">
+                    <h1 class="user-name">Jennifer Tilly</h1>
+                    <div class="sub-vid">
+                        <span class="subscribers">3k Subscribers</span> <div class="circle-small">.</div> <span class="vids-number">58 Videos</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end of user profile container ============== -->
+
+
+            <!-- creator tab ============== -->
+            <div class="creator-tab">
+                <h3 class="tab-content">
+                    Home
+                </h3>
+                <h3 class="tab-content">
+                   Playlist
+                </h3>
+
+                <h3 class="tab-content">
+                   About
+                </h3>
+
+
+                <h3 class="tab-content">
+                   Upload
+                </h3>
+            </div>
+
+            <!-- end of creator tab ============== -->
+
+
+            <!-- creator home section ============== -->
+<div class="creator-home-section">
+    <div class="category">
+        <h1 class="category-title">
+           
+           Educative Videos
+    
+        </h1>
+        <div class="category-card-section">
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb10.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+                <button class="continue-watching-btn">Continue Watching</button>
+                
+            </div>
+
+
+
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb4.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+            </div>
+            
+    
+    
+    
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb11.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+            </div>
+    
+    
+    
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb5.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+            </div>
+    
+    
+    
+    
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb4.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+            </div>
+    
+    
+    
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb9.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+            </div>
+    
+    
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb7.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+            </div>
+    
+    
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb3.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+            </div>
+    
+    
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb9.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+            </div>
+    
+    
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb4.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+            </div>
+    
+    
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb1.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+            </div>
+    
+    
+            <div class="category-card">
+                <div class="category-card-thmb">
+                    <img src="/FrontEnd/images/video-thmb2.svg" alt="">
+                </div>
+                <h4 class="category-title">Blinding Lights</h4>
+                <div class="views-time">
+                    <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<div class="category">
+    <h1 class="category-title">
+       Entertaining Videos
+
+    </h1>
+    <div class="category-card-section">
+        <div class="category-card">
+            <div class="category-card-thmb">
+                <img src="/FrontEnd/images/video-thmb4.svg" alt="">
+            </div>
+            <h4 class="category-title">Blinding Lights</h4>
+            <div class="views-time">
+                <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+            </div>
+        </div>
+        
+
+
+
+        <div class="category-card">
+            <div class="category-card-thmb">
+                <img src="/FrontEnd/images/video-thmb11.svg" alt="">
+            </div>
+            <h4 class="category-title">Blinding Lights</h4>
+            <div class="views-time">
+                <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+            </div>
+        </div>
+
+
+
+        <div class="category-card">
+            <div class="category-card-thmb">
+                <img src="/FrontEnd/images/video-thmb5.svg" alt="">
+            </div>
+            <h4 class="category-title">Blinding Lights</h4>
+            <div class="views-time">
+                <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+            </div>
+        </div>
+
+
+
+
+        <div class="category-card">
+            <div class="category-card-thmb">
+                <img src="/FrontEnd/images/video-thmb4.svg" alt="">
+            </div>
+            <h4 class="category-title">Blinding Lights</h4>
+            <div class="views-time">
+                <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+            </div>
+        </div>
+
+
+
+        <div class="category-card">
+            <div class="category-card-thmb">
+                <img src="/FrontEnd/images/video-thmb9.svg" alt="">
+            </div>
+            <h4 class="category-title">Blinding Lights</h4>
+            <div class="views-time">
+                <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+            </div>
+        </div>
+
+
+        <div class="category-card">
+            <div class="category-card-thmb">
+                <img src="/FrontEnd/images/video-thmb7.svg" alt="">
+            </div>
+            <h4 class="category-title">Blinding Lights</h4>
+            <div class="views-time">
+                <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+            </div>
+        </div>
+
+
+        <div class="category-card">
+            <div class="category-card-thmb">
+                <img src="/FrontEnd/images/video-thmb3.svg" alt="">
+            </div>
+            <h4 class="category-title">Blinding Lights</h4>
+            <div class="views-time">
+                <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+            </div>
+        </div>
+
+
+        <div class="category-card">
+            <div class="category-card-thmb">
+                <img src="/FrontEnd/images/video-thmb9.svg" alt="">
+            </div>
+            <h4 class="category-title">Blinding Lights</h4>
+            <div class="views-time">
+                <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+            </div>
+        </div>
+
+
+        <div class="category-card">
+            <div class="category-card-thmb">
+                <img src="/FrontEnd/images/video-thmb4.svg" alt="">
+            </div>
+            <h4 class="category-title">Blinding Lights</h4>
+            <div class="views-time">
+                <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+            </div>
+        </div>
+
+
+        <div class="category-card">
+            <div class="category-card-thmb">
+                <img src="/FrontEnd/images/video-thmb1.svg" alt="">
+            </div>
+            <h4 class="category-title">Blinding Lights</h4>
+            <div class="views-time">
+                <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+            </div>
+        </div>
+
+
+        <div class="category-card">
+            <div class="category-card-thmb">
+                <img src="/FrontEnd/images/video-thmb2.svg" alt="">
+            </div>
+            <h4 class="category-title">Blinding Lights</h4>
+            <div class="views-time">
+                <span class="views">800 view</span> <span class="last-watch">12 minutes ago</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- end of creator home section ============== -->
+
+          </section>
+        
+      </body>
+    </html>
+  </body>
+</html>
