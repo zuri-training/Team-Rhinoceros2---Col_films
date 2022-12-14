@@ -1,0 +1,188 @@
+@import url("/FrontEnd/css/side-bar-template.css");
+
+html {
+  font-size: 62.5%;
+}
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 50.25em) {
+  html {
+    font-size: 50%;
+  }
+  .side-bar,
+  .side-bar-item,
+  .side-bar-item-creator:hover,
+  .side-bar-item:hover,
+  .creator-navigation,
+  .creator-settings,
+  .side-bar-item-creator,
+  .settings,
+  .setting-sub-item,
+  .setting-sub-item img,
+  .setting-sub-item:hover {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .settings_nav {
+    display: hidden;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* STYLES FOR SETTINGS */
+.settings_nav {
+  display: none;
+}
+.main-content-container {
+  padding: 6em 3em 3em 20%;
+}
+.main-content-container__account--info {
+  display: flex;
+  justify-content: space-between;
+}
+.main-content-container__account--info h2 {
+  align-self: center;
+  margin-bottom: 1rem;
+}
+.main-content-container__account--info img {
+  align-self: flex-start;
+}
+
+.main-content-container__second-div--avatar {
+  display: flex;
+  margin-left: 6rem;
+}
+.main-content-container__second-div--avatar div {
+  padding: 1rem;
+}
+
+.third--div {
+  justify-content: space-around;
+}
+.toggle {
+  position: relative;
+  height: 30px;
+  width: 48px;
+  left: 0px;
+  top: 0px;
+  border-radius: 100px;
+}
+.toggle__white {
+  width: 100%;
+}
+.toggle__purple {
+  position: absolute;
+  height: 28px;
+  width: 48px;
+  left: 7px;
+  top: 0px;
+  border-radius: 100px;
+}
+
+/* NOTIFICATIONS */
+.notifications__nav {
+  display: flex;
+}
+li {
+  font-size: 2.4rem;
+}
+li:first-child {
+  background-color: var(--primary-color);
+  border-radius: 2px;
+}
+
+.notifications__nav li {
+  padding: 0.7rem 1.1rem;
+  margin: 0 0.7rem;
+}
+.video_preview {
+  display: grid;
+  grid-template-columns: minmax(17rem, 28rem) 1fr;
+  gap: 0.5rem 1.5rem;
+  font-size: 1em;
+}
+
+.video_preview img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* LOGOUT */
+.logout {
+  width: 65%;
+}
+.logout_div {
+  padding: 1.5rem 3rem;
+  background-color: var(--primary-color);
+  max-width: 40rem;
+}
+.logout_btns--div {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 0 2rem;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem 5rem;
+  gap: 16px;
+  background-color: var(--primary-color);
+  color: var(--primary-text);
+  border-radius: 6px;
+}
+.btn_blk {
+  border: 1px solid #7b42f6;
+  background-color: var(--background--);
+}
+/* these are helper classes helps in DRY code impementation */
+.mb-sm {
+  margin-bottom: 0.6rem;
+}
+.flex--display {
+  display: flex;
+}
+.mb-md {
+  margin-bottom: 1.2rem;
+}
+.mb-lg {
+  margin-bottom: 3rem;
+}
+
+.mb-hg {
+  margin-bottom: 4.5rem;
+}
+h1 {
+  font-size: 3.6rem;
+}
+h2 {
+  font-size: 2.8rem;
+}
+h3 {
+  font-size: 2.3rem;
+}
+.small_text {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem;
+  /* identical to box height, or 133% */
+  letter-spacing: 0.4px;
+}
+.sm_text {
+  font-size: 1.4rem;
+}
+.tiny_text {
+  font-size: 1.2rem;
+}
