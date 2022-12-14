@@ -32,7 +32,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+label {
   color: var(--primary-text);
 }
 h1,
@@ -151,7 +152,7 @@ span {
   justify-content: space-between;
   margin-bottom: 1em;
 }
-.sign-up-cta,
+.sign-up-link,
 .sign-in-cta,
 .change-email {
   font-weight: 700;
@@ -298,6 +299,7 @@ span {
   height: 4.5rem;
   position: fixed;
   background-color: var(--background);
+  z-index: 150;
 }
 .sign-in-btn {
   padding: 0.4em 0.8em;
@@ -412,7 +414,7 @@ span {
   margin: 2em 0;
 }
 .sign-up-cta {
-  padding: 1em 7.82em;
+  padding: 1em 1.5em;
   border-radius: 8px;
   color: white;
 }
