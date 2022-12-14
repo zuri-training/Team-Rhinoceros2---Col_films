@@ -1,100 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glance | Sign Up</title>
+    <!-- Web Fonts -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glance | Sign Up</title>
-  <!-- Web Fonts -->
+    <!-- CSS Header and Footer -->
+    <link rel="stylesheet" href="/FrontEnd/css/styles.css" />
+  </head>
 
+  <body>
+    <header>
+      <!-- THIS NAV BAR IS FOR THE FORM PAGE==================================== -->
+      <nav class="form-navbar">
+        <a href="index.html"
+          ><img
+            src="/FrontEnd/images/glance-logo-main.svg"
+            alt=""
+            class="logo"
+          />
+        </a>
 
-  <!-- CSS Header and Footer -->
-  <link rel="stylesheet" href="/FrontEnd/css/footer.css">
-  <link rel="stylesheet" href="/FrontEnd/css/header.css">
+        <button class="form-btn">Sign In</button>
+      </nav>
+    </header>
+    <!-- END OF SIGN IN HEADER SECTION -->
 
+    <div class="main">
+      <!-- FORM SECTION=============================== -->
+      <div class="sign-up-form-warpper">
+        <h1 class="form-title">Sign Up</h1>
+        <form action="" name="sign-Up">
+          <div class="form-grid">
+            <!-- to arrange the form into two column lyaout using grid -->
+            <div class="input-div">
+              <!-- form input div==================== -->
+              <img
+                src="/FrontEnd/icons/user-icon.svg"
+                alt=""
+                class="input-icon"
+              />
+              <input type="text" placeholder="First Name" for="firstname" />
+            </div>
 
+            <div class="input-div">
+              <!-- form input div==================== -->
+              <img
+                src="/FrontEnd/icons/user-icon.svg"
+                alt=""
+                class="input-icon"
+              />
+              <input type="text" placeholder="Surname" for="surname" />
+            </div>
 
-  <!-- CSS Customization -->
-  <link rel="stylesheet" href="/FrontEnd/css/adventure.css">
-</head>
+            <div class="input-div">
+              <!-- form input div==================== -->
+              <img
+                src="/FrontEnd/icons/user-icon.svg"
+                alt=""
+                class="input-icon"
+              />
+              <input type="email" placeholder="Email Address" for="email" />
+            </div>
 
-<body>
-  <!--=== Header Part ===-->
-  <div class="wrapper">
-    <!--=== Header v1 ===-->
-    <div class="header-v1">
-      <!-- Topbar -->
-      <div class="topbar-v1">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="top-v1-head">
-                <p style="color: blue; font-size: x-large; float: left;">GLANCE</p>
-                <button class="header-bt">Sign Up</button>
+            <div class="input-div">
+              <!-- form input div==================== -->
+              <img
+                src="/FrontEnd/icons/call-icon.svg"
+                alt=""
+                class="input-icon"
+              />
+              <input
+                type="number"
+                placeholder="Phone Number"
+                for="phone-number"
+              />
+            </div>
 
-              </div>
+            <div class="input-div">
+              <!-- form input div==================== -->
+              <img
+                src="/FrontEnd/icons/password-icon-inactive.svg"
+                alt=""
+                class="input-icon"
+              />
+              <input type="password" placeholder="password" for="password" />
+            </div>
+
+            <div class="input-div">
+              <!-- form input div==================== -->
+              <img
+                src="/FrontEnd/icons/password-icon-inactive.svg"
+                alt=""
+                class="input-icon"
+              />
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                for="password"
+              />
             </div>
           </div>
+        </form>
+        <div class="outer-form-container">
+          <div class="policy-container">
+            <label for="policy"
+              ><input type="checkbox" class="policy" id="policy" />
+            </label>
+            <span
+              >I agree that I have read, understand, and fully agree to Glance
+              terms of service and privacy policy.</span
+            >
+          </div>
+
+          <button type="submit" class="continue-btn">Continue</button>
+          <br />
+          <a href=""
+            >Alrady have an account? <span class="sign-ip-cta">Sign In</span>
+          </a>
         </div>
+        <div class="mrg-bottom"></div>
       </div>
     </div>
-  </div>
-
-  <!--=== Content Part ===-->
-  <div class="signup-form">
-    <h1>Sign Up</h1>
-    <div class="form-container">
-     <div class="form-field">
-      <label for="username">First Name</label>
-      <input type="image" src="/FrontEnd/icons/user-icon.svg" alt="My icon" />
-      <input type="text" placeholder="John" id="firstname" name="firstname" required="">
-    
-      <label for="password">Email Address</label>
-      <input type="image" src="/FrontEnd/icons/user-icon.svg" alt="My icon" />
-      <input type="text" placeholder="xyz@company.com" id="email" name="email" required="">
-      
-      <label for="password">Password</label>
-      <input type="image" src="/FrontEnd/icons/password-icon-active.svg" alt="My icon" />
-      <input type="password" placeholder="John Doe" id="password" name="password" required="">
-       
-     </div>
-  
-     
-    
-
-     <div class="form-field">
-      <label for="password">Last Name</label>
-      <input type="image" src="/FrontEnd/icons/user-icon.svg" alt="My icon" />
-      <input type="text" placeholder="Doe" id="lastname" name="lastname" required="">
-    
-      <label for="password">Phone Number</label>
-      <input type="image" src="/FrontEnd/icons/user-icon.svg" alt="My icon" />
-      <input type="number" placeholder="xxxxxxxxxx" id="phonenumber" name="phonenumber" required="">
-
-      <label for="password">Confirm Password</label>
-      <input type="image" src="/FrontEnd/icons/password-icon-active.svg" alt="My icon" />
-      <input type="password" placeholder="John Doe" id="password" name="password" required="">
-     </div>
-    </div>
-
-    <div class="row">
-     <div class="col-lg-6 checkbox">
-      <label>
-        <input type="checkbox">
-        I agree that I have read, understand and accept Glance</a> <a href="#" class="color-green"
-          style="font-size: larger; color: blue;">Terms Of Service and Privacy Policy</a>
-      </label>
-      </div>
-    </div>
-
-    <div class="form-field">
-      <input type="submit" value="Continue" onclick="submitForm()">
-    </div>
-    
-    <p>Already have an account? <a href="#" class="color-green" style="font-size: larger; color: blue;">SIGN IN</a></p>
-  </div>
-
-</body>
-
+  </body>
 </html>

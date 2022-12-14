@@ -1,80 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glance | Verification</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glance | Sign Up</title>
     <!-- Web Fonts -->
 
-
     <!-- CSS Header and Footer -->
-    <link rel="stylesheet" href="/FrontEnd/css/header.css">
-    <link rel="stylesheet" href="/FrontEnd/css/header.css">
-
-
+    <link rel="stylesheet" href="/FrontEnd/css/styles.css" />
 
     <!-- CSS Customization -->
-    <link rel="stylesheet" href="/FrontEnd/css/adventure.css">
-</head>
+    <link rel="stylesheet" href="/FrontEnd/css/adventure.css" />
+  </head>
 
-<body>
-    <!--=== Header Part ===-->
-    <div class="wrapper">
-        <!--=== Header v1 ===-->
-        <div class="header-v1">
-            <!-- Topbar -->
-            <div class="topbar-v1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="top-v1-head">
-                                <p style="color: blue; font-size: x-large; float: left;">GLANCE</p>
-                                <button class="header-bt">Sign In</button>
+  <body>
+    <header>
+      <!-- THIS NAV BAR IS FOR THE FORM PAGE==================================== -->
+      <nav class="form-navbar">
+        <a href=""
+          ><img
+            src="/FrontEnd/images/glance-logo-main.svg"
+            alt=""
+            class="logo"
+          />
+        </a>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <button class="form-btn">Sign In</button>
+      </nav>
+    </header>
+    <!-- END OF SIGN IN HEADER SECTION -->
+
+    <div class="main">
+      <!-- SIGN UP PROGRESS============== -->
+
+      <div class="sign-up-progress-container">
+        <h3>Verification</h3>
+        <div class="sign-up-progress">
+          <div class="div1"></div>
+          <div class="div2 active"></div>
+          <div class="div3"></div>
         </div>
+
+        <h2>OTP verification</h2>
+        <p>
+          To verify your identiyy, we will send a code to your student email.
+        </p>
+      </div>
+      <!-- END OF SIGN UP PROGRESS============== -->
+
+      <!-- FORM SECTION=============================== -->
+      <div class="sign-up-form-warpper">
+        <form action="" name="sign-Up">
+          <div class="verification-input-div">
+            <!-- form input div==================== -->
+            <img
+              src="/FrontEnd/icons/user-inactive.svg"
+              alt=""
+              class="input-icon"
+            />
+            <input
+              type="email"
+              placeholder="Enter Student Email "
+              for="email"
+            />
+          </div>
+        </form>
+        <div class="outer-form-container">
+          <button type="submit" class="continue-btn">Next</button>
+          <br />
+          <a href=""
+            >Alrady have an account? <span class="sign-in-cta">Sign n</span>
+          </a>
+        </div>
+        <div class="mrg-bottom"></div>
+      </div>
     </div>
-
-
-    <!--=== Content Part ===-->
-    <h1 style="text-align: center;">VERIFICATION</h1>
-    <!--=== the underlines ===-->
-    <div class="underline-1"> </div>
-    <div class="underline-2"></div>
-    <div class="underline-3"></div>
-
-    <!--=== form ===-->
-    <div class="signin-form">
-        <h1>OTP Verification</h1>
-        <p>To verify your identity, we will send a code to your student email</p>
-        <div class="form-field">
-            <label for="email">Student Email</label>
-            <input type="image" src="/FrontEnd/icons/user-icon.svg" alt="My icon" />
-            <input type="text" placeholder="Enter Here" id="email" name="email" required="">
-        </div>
-
-
-
-
-        <div class="form-field">
-            <input type="submit" value="Get OTP" onclick="submitForm()">
-        </div>
-
-    </div>
-
-
-
-
-
-
-
-
-</body>
-
+  </body>
 </html>

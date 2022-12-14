@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glance | forgot-password</title>
+    <title>Glance | Sign Up</title>
     <!-- Web Fonts -->
 
     <!-- CSS Header and Footer -->
@@ -35,30 +35,34 @@
       <!-- SIGN UP PROGRESS============== -->
 
       <div class="sign-up-progress-container">
-        <img
-          src="/FrontEnd/icons/forgot-password-mail-icon.svg"
-          alt=""
-          class="forgot-password"
-        />
+        <h3>Verification</h3>
+        <div class="sign-up-progress">
+          <div class="div1"></div>
+          <div class="div2"></div>
+          <div class="div3 active"></div>
+        </div>
 
-        <h2>Check Your email</h2>
-        <p class="chck-desc">
-          We sent a password reset link to youremail@untitled.com
-        </p>
+        <h2>We have sent your code to your Email</h2>
+        <p>Enter the 6 digit code sent to your email</p>
       </div>
       <!-- END OF SIGN UP PROGRESS============== -->
 
       <!-- FORM SECTION=============================== -->
       <div class="sign-up-form-warpper">
-        <form action="" name="sign-Up"></form>
+        <form action="" name="sign-Up">
+          <div class="code-input-div">
+            <!-- form input div==================== -->
+
+            <input type="number" placeholder="- - - - - -" for="number" />
+          </div>
+        </form>
         <div class="outer-form-container">
-          <button type="submit" class="continue-btn">Open Email App</button>
+          <button type="submit" class="continue-btn">Verify account</button>
           <br />
           <a href=""
-            >Didn't recieve an Email?
-            <span class="sign-in-cta">Click Resend Code</span>
+            >Didn't Get a Code? <span class="sign-in-cta">Resend Code</span>
           </a>
-          <a href="">Back to Login</a>
+          <a href="" class="change-email">Change Email</a>
         </div>
         <div class="mrg-bottom"></div>
       </div>
