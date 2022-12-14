@@ -925,3 +925,220 @@ span {
 }
 
 /* THIS IS THE END OF  THE EXPLORE SECTION  */
+/*THIS PART IS FOR CREATOR'S SECTION============================ */
+
+/*Change  Password*/
+/* Forgot Password Form */
+
+.change-password-form {
+  width: 100%;
+
+  margin: 1em 0;
+
+  /* height: 300px; */
+
+  /* padding: 20px; */
+  margin-top: 5x;
+  /* margin-left: 1cm; */
+}
+
+.changepassform-group {
+  margin-bottom: 15px;
+  width: 60%;
+}
+
+.changepassform-group label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+.change-password-form p {
+  font-size: larger;
+}
+
+.changepassform-group input[type="password"] {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid white;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  border-radius: 8px;
+  background-color: black;
+
+  text-indent: 1cm;
+}
+
+.changepassform-group input[type="submit"] {
+  /* background-color: plum; */
+
+  padding: 1em 1.5em;
+  width: 35%;
+  margin-right: 1em;
+  border: none;
+  border-radius: 8px;
+  /* width: 6cm; */
+
+  cursor: pointer;
+}
+.save {
+  background-color: var(---button-inactive);
+  color: white;
+}
+.cancel {
+  background-color: var(--primary-text);
+  color: var(--background);
+}
+
+.changepassform-group input[type="submit"]:hover {
+  background-color: var(--primary-color);
+}
+.changepassform-group input[type="submit2"]:hover {
+  background-color: var(--primary-color);
+}
+.change-form-desc {
+  margin: 0.6em 0;
+}
+.change-form-title {
+  margin: 1em 0 1.5em;
+}
+/*Faq Page*/
+.faq-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.faq-form .search-bar {
+  width: 60%;
+  margin: 1em 0;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: white;
+}
+.faq-hr {
+  margin: 2em 0;
+}
+.faq-btn {
+  width: 50%;
+  background-color: #fff;
+  color: #585860;
+  padding: 1em 1.5em;
+  margin: 1em 0;
+  border-radius: 8px;
+}
+
+.need-help {
+  margin: 0.5em 0;
+}
+/*Privacy page*/
+
+/* CREATOR'S DASHBOARD FOR HOME, UPLOAD, ABOUT AND PLAYLIST */
+
+.user-profile-container {
+  display: flex;
+  align-items: center;
+  width: 34.7%;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.user-name {
+  font-size: 2.2rem;
+}
+.circle-small {
+  width: 16px;
+  height: 16px;
+  background-color: var(--primary-text);
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.sub-vid {
+  display: flex;
+  align-items: center;
+}
+.creator-tab {
+  display: flex;
+  width: 36%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.tab-content {
+  padding: 1em;
+  cursor: pointer;
+}
+.tab-content:hover {
+  background-color: var(--primary-color);
+}
+.category-card {
+  width: 100%;
+  position: relative;
+}
+.continue-watching-btn {
+  padding: 1em;
+  border-radius: 8px;
+  opacity: 0.3;
+  animation: 1s ease-in;
+  position: absolute;
+  top: 48%;
+}
+.continue-watching-btn:hover {
+  opacity: 1;
+}
+
+.views-time {
+  font-size: 0.8rem;
+}
+.category-card-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px 20px;
+  margin: 2em 0 3em;
+}
+.category-card-thmb {
+  width: 100%;
+  height: 140px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0.8em;
+}
+.category-card-thmb img {
+  width: 100%;
+}
+.about-container {
+  margin: 1em 0;
+}
+.title {
+  color: rgb(193, 193, 193);
+}
+.description {
+  color: #424242;
+}
+.upload-container {
+  aspect-ratio: 2/1;
+  background-color: #f5f5f5;
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+}
+.upload-request {
+  font-size: 3.6rem;
+  color: #838383;
+}
+.description-upload {
+  font-size: 1.5rem;
+  color: #838383;
+}
+.upload-icon {
+  width: 15%;
+}
+.upload-btn {
+  width: 50%;
+  padding: 2em;
+  border-radius: 10px;
+}
+.request-description {
+  text-align: center;
+}
+
+/* END OF CREATORS FOR HAME AND THE REST */
+/* END OF CREATOR'S SECTION======================================== */
