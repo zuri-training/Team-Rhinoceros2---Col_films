@@ -1,45 +1,23 @@
-.header-v1 .topbar-v1 {
-  border: 1px solid rgb(112, 112, 112);
-  padding: 10px;
-  height: 1.5cm;
-}
-
-.header-v1 .topbar-v1 .top-v1-head p {
-  display: inline-block;
-}
-.header-v1 .topbar-v1 .top-v1-head button {
-  background-color: blue;
-  border: none;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  font-size: 12px;
-  border-radius: 4px;
-  float: right;
-  width: 5%;
-  margin-top: 15px;
-}
 .account-center input[type="image"] {
-	background: white;
-	color: white;
-	min-width: 10px;
-	padding: 5px;
-	margin-top: 2px;
-	text-align: center;
-	margin-left: 6px;
-	position: absolute;
-	margin-bottom: 10px;
+  background: white;
+  color: white;
+  min-width: 10px;
+  padding: 5px;
+  margin-top: 2px;
+  text-align: center;
+  margin-left: 6px;
+  position: absolute;
+  margin-bottom: 10px;
 }
 .account-center input[type="text"] {
-	width: 8cm;
-	padding: 8px;
-	
-	
-	outline: none;
-	border-radius : 8px;
-	background-color: gray;
-	margin-bottom: 10px;
-	text-indent: 1cm;
+  width: 8cm;
+  padding: 8px;
+
+  outline: none;
+  border-radius: 8px;
+  background-color: gray;
+  margin-bottom: 10px;
+  text-indent: 1cm;
 }
 
 select {
@@ -114,15 +92,14 @@ select {
 
 /* Side Bar2*/
 
- .sidenav1 {
+.sidenav1 {
   height: 30%;
   width: 200px;
-  
+
   z-index: 1;
   top: 0;
   left: 0;
 
-  
   padding-top: 60px;
   margin-top: 60px;
   margin-left: 80px;
@@ -141,6 +118,3 @@ select {
 .sidenav1 .icon:hover {
   color: #fff;
 }
-
-
-

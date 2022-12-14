@@ -1,80 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glance | Sign In</title>
+    <!-- Web Fonts -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glance | Sign In</title>
-  <!-- Web Fonts -->
+    <!-- CSS Header and Footer -->
+    <link rel="stylesheet" href="/FrontEnd/css/styles.css" />
 
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="/FrontEnd/css/adventure.css" />
+  </head>
 
-  <!-- CSS Header and Footer -->
-  <link rel="stylesheet" href="/FrontEnd/css/header.css">
-  <link rel="stylesheet" href="/FrontEnd/css/header.css">
+  <body>
+    <header>
+      <!-- THIS NAV BAR IS FOR THE FORM PAGE==================================== -->
+      <nav class="form-navbar">
+        <a href=""
+          ><img
+            src="/FrontEnd/images/glance-logo-main.svg"
+            alt=""
+            class="logo"
+          />
+        </a>
 
+        <button class="form-btn">Sign Up</button>
+      </nav>
+    </header>
+    <!-- END OF SIGN IN HEADER SECTION -->
 
-
-  <!-- CSS Customization -->
-  <link rel="stylesheet" href="/FrontEnd/css/adventure.css">
-</head>
-
-<body>
-  <!--=== Header Part ===-->
-  <div class="wrapper">
-    <!--=== Header v1 ===-->
-    <div class="header-v1">
-      <!-- Topbar -->
-      <div class="topbar-v1">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="top-v1-head">
-                <p style="color: blue; font-size: x-large; float: left;;">GLANCE</p>
-                <button class="header-bt">Sign Up</button>
-
-              </div>
-            </div>
+    <div class="main">
+      <!-- FORM SECTION=============================== -->
+      <div class="form-warpper">
+        <h1 class="form-title">Sign In</h1>
+        <form action="" name="sign-in">
+          <div class="input-div">
+            <!-- form input div==================== -->
+            <img
+              src="/FrontEnd/icons/user-icon.svg"
+              alt=""
+              class="input-icon"
+            />
+            <input type="email" placeholder="Email Address" for="email" />
           </div>
-        </div>
+
+          <div class="input-div">
+            <!-- form input div==================== -->
+            <img
+              src="/FrontEnd/icons/password-icon-inactive.svg"
+              alt=""
+              class="input-icon"
+            />
+            <input type="password" placeholder="password" for="password" />
+          </div>
+
+          <button type="submit" class="login-btn">Log In</button>
+
+          <div class="remember-container">
+            <label for="remember-me"
+              ><input type="checkbox" class="remember-me" id="remember-me" />
+              Remember Me</label
+            >
+
+            <a href="" class="forgot-password?">Forgot Paassword?</a>
+          </div>
+          <a href=""
+            >New to Glance? <span class="sign-up-cta">Sign Up</span> now</a
+          >
+        </form>
+        <div class="mrg-bottom"></div>
       </div>
     </div>
-  </div>
-
-
-  <!--=== Content Part ===-->
-
-
-  <div class="signin-form">
-    <h1>Sign In</h1>
-       <div class="form-field">
-      <label for="username">Full Name</label>
-      <input type="image" src="/FrontEnd/icons/user-icon.svg" alt="My icon" />
-      <input type="text" placeholder="John Doe" id="fullname" name="fullname" required="">
-    </div>
-    <div class="form-field">
-      <label for="password">Password</label>
-      <input type="image" src="/FrontEnd/icons/user-icon.svg" alt="My icon" />
-      <input type="password" placeholder="John Doe" id="password" name="password" required="">
-    </div>
-  
-
-
-    <div class="form-field">
-      <input type="submit" value="Log In" onclick="submitForm()">
-    </div>
-    <div class="row">
-      <div class="col-lg-6 checkbox">
-        <label>
-          <input type="checkbox">
-          Remember me</a>
-        </label>
-        <p>New to Glance? <a href="#" class="color-green" style="font-size: larger; color: blue;">SIGN UP NOW</a></p>
-      </div>
-    </div>
-  </div>
-
-
-</body>
-
+  </body>
 </html>
