@@ -82,6 +82,12 @@ header {
 span {
   color: white;
 }
+option {
+  background-color: transparent;
+}
+select {
+  background-color: transparent;
+}
 .logo {
   display: flex;
   align-items: center;
@@ -1094,7 +1100,7 @@ span {
 .user-profile-container {
   display: flex;
   align-items: center;
-  width: 34.7%;
+  width: 40%;
   justify-content: space-between;
   margin-bottom: 2em;
 }
