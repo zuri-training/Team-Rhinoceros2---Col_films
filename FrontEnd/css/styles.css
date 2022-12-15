@@ -82,7 +82,14 @@ header {
 span {
   color: white;
 }
-
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu-icon {
+  display: none;
+}
 .logo p {
   color: var(--primary-color);
   margin-right: 20px;
@@ -110,6 +117,7 @@ span {
   padding: 0.6em 1em;
   border-radius: 6px;
 }
+
 /* THE ABOVE LINE OF CODES IS FOR SIGN UP/SIGN IN UP NAV BAR */
 
 /* SIGN IN FORM  */
@@ -313,10 +321,12 @@ span {
 /* landing-page first section */
 .landingpage-hero-section {
   width: 100%;
-  aspect-ratio: 2/0.8;
+  height: 50%;
   background: url(/FrontEnd/images/onboarding-hero-img1.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+
   padding: 4em 4.75em;
   margin: 6em 0 2em;
 }
@@ -349,10 +359,11 @@ span {
 .landingpage-section-two {
   background: url(/FrontEnd/images/onboarding-hero-img2.svg);
   width: 100%;
-  aspect-ratio: 2/0.8;
+  height: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4em 4.75em;
+  background-position: center;
 }
 .landingpage-section-two-description {
   color: var(--primary-color);
@@ -361,7 +372,7 @@ span {
 /* landing-page third section */
 .landingpage-third-section {
   position: relative;
-  padding: 4em 0 4em 6em;
+  /* padding: 4em 0 4em 6em; */
   overflow: hidden;
 }
 .landingpage-slider-h1 {
@@ -431,7 +442,8 @@ span {
   padding: 3.8em 0;
   display: flex;
   align-items: center;
-  gap: 26%;
+  justify-content: center;
+  gap: 20px;
 }
 .footer-ul {
   display: flex;
@@ -482,7 +494,17 @@ span {
   align-items: center;
   gap: 5px;
 }
-
+.nav-icon {
+  cursor: pointer;
+}
+.nav-search {
+  background-color: #585860;
+  padding: 0.5em;
+  border-radius: 6px;
+  border: 1px solid #45454a;
+  display: none;
+  color: var(--primary-text);
+}
 /* dashboard hero e]section */
 .dashboard-hero-p {
   background: url(/FrontEnd/images/landingpage-hero.svg);
@@ -520,7 +542,6 @@ span {
 
 /* EXPLORE PAGE  */
 .explore-hero {
-  background: url(/FrontEnd/images/explore-hero-img.svg);
   width: 100%;
   aspect-ratio: 2/0.8;
   background-repeat: no-repeat;
@@ -530,7 +551,13 @@ span {
   margin: 6em 0 1em;
   /* align-items: center; */
   justify-content: center;
+
+  position: relative;
+}
+.explore-hero-details {
+  position: absolute;
   padding: 4em;
+  top: 25%;
 }
 .chart-position {
   color: var(--background);
@@ -562,11 +589,12 @@ span {
     .sci-fi,
     .top-10-movies,
     .continue-watching /* add padding to all the sections  */ {
-  padding: 0 3.75em;
+  /* padding: 0 3.75em; */
+  overflow: hidden;
 }
 .explore-slider {
   overflow: hidden;
-
+  width: 10000px;
   display: flex;
   gap: 20px;
 }
@@ -584,12 +612,14 @@ span {
 }
 .explore-description {
   font-size: 0.6rem;
+  width: 220px;
 }
 
 /* top 10 section */
 /* .top-10-movies {
       padding: 0 4em;
     } */
+
 .top-10-card {
   width: 180px;
   height: 100px;
@@ -600,6 +630,10 @@ span {
 .top-10-thmb1 {
   width: 40%;
   height: 100%;
+  color: var(--primary-text);
+  font-size: 5rem;
+  font-weight: 900;
+  padding-left: 10px;
 }
 .top-10-thmb {
   width: 60%;
@@ -873,12 +907,22 @@ span {
   right: 100px;
   background-color: #585860;
   border-radius: 8px;
+  z-index: 50;
+  display: none;
 }
 .notificaton {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.Notification-btn {
+  background-color: transparent;
+  border: 2px solid #49494f;
+  border-radius: 8px;
+  padding: 1em 2em;
+}
+
 .notification-img {
   width: 50px;
   height: 50px;
@@ -1157,3 +1201,365 @@ span {
 
 /* END OF CREATORS FOR HAME AND THE REST */
 /* END OF CREATOR'S SECTION======================================== */
+
+/* MEDIA QUERIES=========================================================================================== */
+
+/* screen size from 1300 */
+
+@media (max-width: 1300) {
+  .help-section-thmb {
+    width: 300px;
+    height: 160px;
+  }
+}
+
+/* screen size between 1240-1000px =====================*/
+
+@media (max-width: 1240px) {
+  .fourth-section-left {
+    width: 50%;
+  }
+  .fourt-section-illustration {
+    width: 50%;
+  }
+
+  .slide {
+    width: 200px;
+  }
+  .landingpage-third-section {
+    padding: 0;
+  }
+  .form-warpper {
+    width: 70%;
+  }
+  .sign-up-form-warpper {
+    width: 80%;
+  }
+  .explore-hero-details {
+    padding: 2em;
+    top: 5%;
+  }
+  .my-list-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .help-section-thmb {
+    width: 280px;
+    height: 120px;
+  }
+}
+
+/* screen size between 1000px to 600px ================= */
+@media (max-width: 1000px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-icon {
+    display: inline;
+  }
+  .nav-ul {
+    display: none;
+  }
+  .nav-ul-visible {
+    margin-top: 250px;
+    display: none;
+    flex-direction: column;
+    position: relative;
+    top: 20%;
+    width: 30%;
+    padding: 1em;
+    background: #585860;
+  }
+  .dashboard-thmb {
+    width: 270px;
+    height: 140px;
+  }
+  .dashboard-h3 {
+    margin: 1.4em 0;
+  }
+}
+@media (max-width: 900px) {
+  .section-four-h2 {
+    font-size: 2rem;
+  }
+  .fourth-section-description {
+    font-size: 1rem;
+  }
+  .landingpage-third-section {
+    padding: 0;
+  }
+  .form-warpper {
+    width: 70%;
+  }
+  .sign-up-form-warpper {
+    width: 90%;
+  }
+  .policy-container {
+    width: 60%;
+  }
+  .explore-hero-details {
+    padding: 1em;
+  }
+  .hero-category {
+    margin: 1em;
+  }
+  .explore-hero-movie-title {
+    font-size: 4rem;
+  }
+  .explore-slider-section,
+  .sci-fi,
+  .top-10-movies,
+  .continue-watching {
+    padding: 0;
+  }
+  .explore-description,
+  .explore-thmb {
+    width: 180px;
+  }
+  .my-list-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .help-section-thmb {
+    width: 220px;
+    height: 100px;
+    border-radius: 6px;
+  }
+
+  .section-container {
+    flex-direction: column;
+  }
+  .video-playing-section {
+    width: 100%;
+  }
+}
+
+/* screen size between 600 to 300px============== */
+@media (max-width: 700px) {
+  p {
+    font-size: 1em;
+  }
+  .section-four-h2 {
+    font-size: 2rem;
+  }
+  .landingpage-fourth-section .d-flex {
+    flex-direction: column;
+  }
+  .fourth-section-left {
+    width: 100%;
+  }
+  .fourt-section-illustration {
+    width: 100%;
+  }
+  .slide {
+    width: 150px;
+  }
+  .footer-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-links-container {
+    width: 100%;
+  }
+  .footer-links {
+    flex-direction: column;
+  }
+  .footer-ul {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .left-slide-icon,
+  .right-slide-icon {
+    width: 60px;
+  }
+  .landingpage-third-section {
+    padding: 0;
+  }
+  .hero-section-h1 {
+    font-size: 2em;
+  }
+  .new-to-glance {
+    margin-top: 1em;
+  }
+  .get-started {
+    padding: 1em 5em;
+  }
+  .new-to-glance {
+    padding: 1em 2em;
+  }
+  .or {
+    width: 150px;
+  }
+  .landingpage-hero-section {
+    padding: 2em;
+  }
+
+  .form-warpper {
+    width: 100%;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .policy-container {
+    width: 100%;
+  }
+  .verification-input-div {
+    width: 100%;
+  }
+  .verification-input-div input {
+    width: 90%;
+  }
+  .explore-hero-details {
+    width: 100%;
+    padding: 0.8em;
+  }
+  .explore-play,
+  .explore-more {
+    padding: 0.5em 3em;
+  }
+  .hero-category {
+    display: none;
+  }
+  .explore-hero-movie-title {
+    font-size: 1.6em;
+  }
+  .explore-hero-movie-description {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .chart-position {
+    font-size: 1em;
+  }
+  .explore-description,
+  .explore-thmb {
+    width: 130px;
+    height: 80px;
+  }
+  .explore-gategory-type {
+    margin-right: 0.5em 0;
+  }
+  .explore-title {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .explore-description,
+  .explore-gategory-type,
+  .explore-title {
+    display: none;
+  }
+
+  .dashboard-thmb {
+    width: 200px;
+    height: 100px;
+  }
+
+  .dashboard-h3 {
+    margin: 0.8em 0;
+  }
+  .vid-thmb {
+    height: 80px;
+  }
+  .help-section-thmb {
+    width: 180px;
+    height: 80px;
+    border-radius: 6px;
+  }
+
+  .read-more {
+    font-size: 0.8em;
+  }
+  .video-description {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .chart-position {
+    font-size: 0.9em;
+  }
+  .explore-play,
+  .explore-more {
+    padding: 0.5em 2em;
+    font-size: 0.8rem;
+  }
+
+  .explore-hero img {
+    width: 100%;
+    height: inherit;
+    object-fit: contain;
+  }
+  .explore-hero-movie-description {
+    margin: 0.5em 0;
+  }
+
+  .explore-thmb,
+  .top-10-card {
+    width: 100px;
+    height: 60px;
+  }
+  .explore-gategory-type {
+    margin-right: 0.5em 0;
+  }
+  .explore-title {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .top-10-thmb1 {
+    font-size: 3rem;
+  }
+  .explore-hero-details {
+    padding: 0.5em;
+    top: 0;
+  }
+  .dashboard-thmb {
+    width: 140px;
+    height: 80px;
+  }
+  .dashboard-h3 {
+    margin: 0.8em 0;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .vid-thmb {
+    height: 55px;
+  }
+  .notification-container {
+    width: 300px;
+    right: 20px;
+  }
+  .notification-img {
+    width: 25px;
+    height: 25px;
+  }
+  .notification-thmb {
+    width: 40px;
+  }
+  .notification-msg {
+    font-size: 0.6rem;
+  }
+  .nav-ul-visible {
+    width: 100%;
+    left: 0;
+  }
+  .help-section-thmb {
+    width: 100px;
+    height: 60px;
+    border-radius: 6px;
+  }
+  .help-section-description {
+    font-size: 0.8rem;
+  }
+  .help-illustrator {
+    width: 300px;
+  }
+  .vid-description {
+    width: 100%;
+  }
+  .subscribe {
+    padding: 0.5em 1em;
+  }
+  .impression-icons img,
+  .impression-section img {
+    width: 20px;
+  }
+}

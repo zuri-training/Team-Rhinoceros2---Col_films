@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>explore</title>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/FrontEnd/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,13 +18,94 @@
   <body>
     <main class="main">
       <!-- nav bar section -->
- 
+      <div class="notification-container">
+        <div class="notificaton">
+      
+            <img
+              src="/FrontEnd/images/notification1.svg"
+              alt=""
+              class="notification-img"
+            />
+            <p class="notification-msg">Netlick uploaded a new video uploaded a new video</p>
+            <img src="/FrontEnd/images/notification-thmb1.svg" alt="" class="notification-thmb">
+          </div>
+
+
+          <div class="notificaton">
+      
+            <img
+              src="/FrontEnd/images/notification2.svg"
+              alt=""
+              class="notification-img"
+            />
+            <p class="notification-msg">Netlick uploaded a new video uploaded a new video</p>
+            <img src="/FrontEnd/images/notification-thmb2.svg" alt="" class="notification-thmb">
+          </div>
+
+
+
+          <div class="notificaton">
+      
+            <img
+              src="/FrontEnd/images/notification3.svg"
+              alt=""
+              class="notification-img"
+            />
+            <p class="notification-msg">Netlick uploaded a new video uploaded a new video</p>
+            <img src="/FrontEnd/images/notification-thmb3.svg" alt="" class="notification-thmb">
+          </div>
+
+
+
+          <div class="notificaton">
+      
+            <img
+              src="/FrontEnd/images/notification4.svg"
+              alt=""
+              class="notification-img"
+            />
+            <p class="notification-msg">Netlick uploaded a new video uploaded a new video</p>
+            <img src="/FrontEnd/images/notification-thmb4.svg" alt="" class="notification-thmb">
+          </div>
+
+
+
+          <div class="notificaton">
+      
+            <img
+              src="/FrontEnd/images/notification5.svg"
+              alt=""
+              class="notification-img"
+            />
+            <p class="notification-msg">Netlick uploaded a new video uploaded a new video</p>
+            <img src="/FrontEnd/images/notification-thmb3.svg" alt="" class="notification-thmb">
+          </div>
+
+
+          <div class="notificaton">
+      
+            <img
+              src="/FrontEnd/images/notification6.svg"
+              alt=""
+              class="notification-img"
+            />
+            <p class="notification-msg">Netlick uploaded a new video uploaded a new video</p>
+            <img src="/FrontEnd/images/notification-thmb2.svg" alt="" class="notification-thmb">
+          </div>
+          <a href="notifications.html">
+          <button class="Notification-btn">View All Notification</button>
+        </a>
+        </div>
+       
+      </div>
       <nav class="navbar">
+        
         <div class="logo">
+          <img src="/FrontEnd/icons/menu-icon.svg" alt="" class="menu-icon">
           <a href="authenticated-home-page.html"> <img src="/FrontEnd/images/glance-logo-main.svg" alt=""></div></a>
          
 
-        <ul class="nav-ul">
+        <ul class="nav-ul nav-ul-visible">
           <li class="nav-list"><a href="authenticated-home-page.html">Home</a></li>
           <li class="nav-list"><a href="explore-pag.html">Explore</a>
           </li >
@@ -46,18 +127,19 @@
         </ul>
 
         <div class="account-center">
-          <img
+          
+          <input type="text" class="nav-search" placeholder="search"><img
             src="/FrontEnd/icons/nav-search-icon.svg"
             alt=""
-            class="nav-icon"
+            class="nav-icon search-icon"
           />
 
           <img
             src="/FrontEnd/icons/nav-notification-icon.svg"
             alt=""
-            class="nav-icon"
+            class="nav-icon notification-icon"
           />
-<a href="changePass.html"><img
+<a href="settings.html"><img
   src="/FrontEnd/icons/nav-setting-icon.svg"
   alt=""
   class="nav-icon"
@@ -75,11 +157,13 @@
       <!-- explore hero section -->
 
       <section class="explore-hero">
+        <img src="/FrontEnd/images/explore-hero-img.svg" alt="" class="explore-hero-img">
+        <div class="explore-hero-details">
         <h2 class="explore-hero-movie-title">Brotherhood</h2>
         <h4 class="chart-position">#2 in Short Movie Today</h4>
         <p class="explore-hero-movie-description">
           #2 in Short Movie Today, the king reign over all while competitors are
-          looking at garri and ijebu stew we need . to stand for nigeria now
+         
         </p>
         <div class="button-container">
           <a href="watch-video.html">   <button class="explore-play">Play</button></a>
@@ -87,6 +171,7 @@
           <button class="explore-more">More info</button>
         </div>
         <h4 class="hero-category">New Release</h4>
+      </div>
       </section>
 
       <!-- latest release-section -->
@@ -179,7 +264,7 @@
         <div class="explore-slider">
           <div class="top-10-card">
             <div class="top-10-thmb1">
-                <img src="/FrontEnd/images/video-thmb2.svg" alt="" />
+               1
               </div>
             <div class="top-10-thmb">
               <img src="/FrontEnd/images/video-thmb1.svg" alt="" />
@@ -190,33 +275,20 @@
 
           <div class="top-10-card">
             <div class="top-10-thmb1">
-                <img src="/FrontEnd/images/video-thmb2.svg" alt="" />
+                2
               </div>
             <div class="top-10-thmb">
-              <img src="/FrontEnd/images/video-thmb1.svg" alt="" />
+              <img src="/FrontEnd/images/video-thmb2.svg" alt="" />
             </div>
            
           </div>
 
-
-
           <div class="top-10-card">
             <div class="top-10-thmb1">
-                <img src="/FrontEnd/images/video-thmb2.svg" alt="" />
+                3
               </div>
             <div class="top-10-thmb">
-              <img src="/FrontEnd/images/video-thmb1.svg" alt="" />
-            </div>
-           
-          </div>
-
-
-          <div class="top-10-card">
-            <div class="top-10-thmb1">
-                <img src="/FrontEnd/images/video-thmb2.svg" alt="" />
-              </div>
-            <div class="top-10-thmb">
-              <img src="/FrontEnd/images/video-thmb1.svg" alt="" />
+              <img src="/FrontEnd/images/video-thmb5.svg" alt="" />
             </div>
            
           </div>
@@ -224,10 +296,20 @@
 
           <div class="top-10-card">
             <div class="top-10-thmb1">
-                <img src="/FrontEnd/images/video-thmb2.svg" alt="" />
+               4
               </div>
             <div class="top-10-thmb">
-              <img src="/FrontEnd/images/video-thmb1.svg" alt="" />
+              <img src="/FrontEnd/images/video-thmb6.svg" alt="" />
+            </div>
+           
+          </div>
+
+          <div class="top-10-card">
+            <div class="top-10-thmb1">
+                5
+              </div>
+            <div class="top-10-thmb">
+              <img src="/FrontEnd/images/video-thmb8.svg" alt="" />
             </div>
            
           </div>
@@ -235,30 +317,52 @@
 
           <div class="top-10-card">
             <div class="top-10-thmb1">
-                <img src="/FrontEnd/images/video-thmb2.svg" alt="" />
+                6
               </div>
             <div class="top-10-thmb">
-              <img src="/FrontEnd/images/video-thmb1.svg" alt="" />
+              <img src="/FrontEnd/images/video-thmb9.svg" alt="" />
+            </div>
+           
+          </div>
+
+
+          <div class="top-10-card">
+            <div class="top-10-thmb1">
+             7
+              </div>
+            <div class="top-10-thmb">
+              <img src="/FrontEnd/images/video-thmb7.svg" alt="" />
+            </div>
+           
+          </div>
+
+
+          <div class="top-10-card">
+            <div class="top-10-thmb1">
+                8
+              </div>
+            <div class="top-10-thmb">
+              <img src="/FrontEnd/images/video-thmb4.svg" alt="" />
             </div>
            
           </div>
 
           <div class="top-10-card">
             <div class="top-10-thmb1">
-                <img src="/FrontEnd/images/video-thmb2.svg" alt="" />
+              9
               </div>
             <div class="top-10-thmb">
-              <img src="/FrontEnd/images/video-thmb1.svg" alt="" />
+              <img src="/FrontEnd/images/video-thmb10.svg" alt="" />
             </div>
            
           </div>
 
           <div class="top-10-card">
             <div class="top-10-thmb1">
-                <img src="/FrontEnd/images/video-thmb2.svg" alt="" />
+                10
               </div>
             <div class="top-10-thmb">
-              <img src="/FrontEnd/images/video-thmb1.svg" alt="" />
+              <img src="/FrontEnd/images/video-thmb11.svg" alt="" />
             </div>
            
           </div>
@@ -426,5 +530,9 @@
   </div>
 </footer>
     </main>
+
+
+
+    <script src="/FrontEnd/javascript/app.js"></script>
   </body>
 </html>
