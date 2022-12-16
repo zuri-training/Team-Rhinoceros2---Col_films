@@ -111,7 +111,7 @@ Email - josephudokae@gmail.com<br>
 2. **Nmesoma Ofortube** - Assistant Team lead <br>
 Github-  https://github.com/xxx<br>
 Track - Product Design<br>
-Email - @gmail.com<br>
+Email - preshy2047@gmail.com<br>
 2. **Daniel Andara Innocent** - Assistant Team lead <br>
 Github-  https://github.com/Andarson-Brel<br>
 Track - Front End<br>
