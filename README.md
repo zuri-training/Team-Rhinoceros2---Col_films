@@ -2,7 +2,7 @@
 
 # Documentation 
 **Initial Documentation** - https://docs.google.com/document/d/1wRj2RmZevcUaIDORZ8hcdvbOzsZ7VIZl6JaFopN_Lfs/edit?usp=drivesdk <br>
-**Final Documentation** - https://docs.google.com/document/d/1Ade4GLuJo-tNt8V-AcJFqBCYGJb5CRpB5EEVj-yAeAM/edit?usp=drivesdk
+**Final Documentation** - https://docs.google.com/document/d/1Xp321kwHoJdPHOnBTix5MNNOBfsxYOUD25CyjsBOvy4/edit?usp=drivesdk
 
 # Hosting Link 
 https://team-rhinoceros2-col-films.vercel.app/
