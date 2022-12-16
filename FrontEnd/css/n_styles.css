@@ -1,8 +1,3 @@
-@import url("/FrontEnd/css/side-bar-template.css");
-
-html {
-  font-size: 62.5%;
-}
 @media only screen and (max-width: 75em) {
   html {
     font-size: 56.25%;
@@ -13,19 +8,7 @@ html {
   html {
     font-size: 50%;
   }
-  .side-bar,
-  .side-bar-item,
-  .side-bar-item-creator:hover,
-  .side-bar-item:hover,
-  .creator-navigation,
-  .creator-settings,
-  .side-bar-item-creator,
-  .settings,
-  .setting-sub-item,
-  .setting-sub-item img,
-  .setting-sub-item:hover {
-    display: none;
-  }
+
   hr {
     display: none;
   }
@@ -44,9 +27,7 @@ html {
 .settings_nav {
   display: none;
 }
-.main-content-container {
-  padding: 6em 3em 3em 20%;
-}
+
 .main-content-container__account--info {
   display: flex;
   justify-content: space-between;
@@ -94,21 +75,22 @@ html {
 .notifications__nav {
   display: flex;
 }
-li {
+.notifications__nav li {
   font-size: 2.4rem;
 }
-li:first-child {
-  background-color: var(--primary-color);
-  border-radius: 2px;
+@media (max-width: 500px) {
+  .notifications__nav li {
+    font-size: 1rem;
+    font-weight: 700;
+  }
 }
-
 .notifications__nav li {
   padding: 0.7rem 1.1rem;
   margin: 0 0.7rem;
 }
 .video_preview {
-  display: grid;
-  grid-template-columns: minmax(17rem, 28rem) 1fr;
+  display: flex;
+
   gap: 0.5rem 1.5rem;
   font-size: 1em;
 }

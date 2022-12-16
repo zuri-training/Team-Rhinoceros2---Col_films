@@ -5,126 +5,130 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glance | FAQs</title>
+    <title>FAQ</title>
+
+
     <link rel="stylesheet" href="/FrontEnd/css/side-bar-template.css" />
+
+    <link rel="stylesheet" href="/FrontEnd/css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet" />
-   
-
-
-        <link rel="stylesheet" href="/FrontEnd/css/styles.css" />
 </head>
 
 <body>
+   
+        <header>
+            <nav class="navbar-user">
+                <div class="logo-menu">
 
+                    <img src="/FrontEnd/icons/menu-icon.svg" alt="" class="creator-menu-icon" />
 
-
-    <nav class="navbar-user">
-        <div class="logo-menu">
-            <img src="/FrontEnd/icons/menu-icon.svg" alt="" class="menu-icon" />
-
-            <img src="/FrontEnd/images/glance-logo-main.svg" alt="" class="logo" />
-        </div>
-
-        <div class="search-account">
-            <div class="search-bar">
-                <img src="/FrontEnd/icons/search-icon.svg" alt="" />
-                <input type="search" name="search" id="search" placeholder="Search" />
-            </div>
-
-
-            <div class="user-account">
-                <select id="User account" class="user-list">
-                    <option value="">Jennifer Tilly</option>
-                    <option value="dog"></option>
-                    <option value="cat"></option>
-                    <option value="hamster"></option>
-                    <option value="parrot"></option>
-                    <option value="spider"></option>
-                    <option value="goldfish"></option>
-                </select>
-                <img src="/FrontEnd/images/nav-bar-avatar.svg" alt="" class="nav-icon" />
-            </div>
-    </nav>
-
-
-    <!-- SIDE BAR SECTION================================ -->
-    <section class="side-bar">
-        <div class="creator-navigation">
-
-
-            <div class="side-bar-item">
-                <img src="/FrontEnd/icons/home.svg" alt="" class="side-bar-icon">
-                <a href="" class="side-bar-link">Home</a>
-            </div>
-
-
-            <div class="side-bar-item">
-                <img src="/FrontEnd/icons/video-icon-inactive.svg" alt="" class="side-bar-icon">
-                <a href="" class="side-bar-link">Your video</a>
-            </div>
-
-
-
-            <div class="side-bar-item">
-                <img src="/FrontEnd/icons/library-icon-inactive.svg" alt="" class="side-bar-icon">
-                <a href="" class="side-bar-link">Libraries</a>
-            </div>
-
-
-
-
-        </div>
-        <div class="creator-settings">
-            <div class="setting-container">
-                <div class="side-bar-item-creator">
-                    <img src="/FrontEnd/icons/creator-setting-icon.svg" alt="" class="side-bar-icon">
-                    <a href="" class="side-bar-link">Settings</a>
+                    <a href=/FrontEnd/pages/authenticated-home-page.html"><img src="/FrontEnd/images/glance-logo-main.svg" alt="" class="logo" /></a>
                 </div>
 
-                <div class="settings">
-                    <div class="setting-sub-item">
+                <div class="search-account">
+                    <img src="/FrontEnd/icons/notification-inactive.svg" alt="" class="notification-icon">
+
+                    <img src="/FrontEnd/icons/search-icon.svg" alt="" class="search-icon">
+                    <div class="search-bar">
+                        <img src="/FrontEnd/icons/search-icon.svg" alt="" />
+                        <input type="search" name="search" id="search" placeholder="Search" />
+                    </div>
+
+
+                    <div class="user-account">
+                        <select id="User account" class="user-list">
+                            <option value="">Jennifer Tilly</option>
+                            <option value="Profile">Profile</option>
+                            <option value="notification">Notification</option>
+                            <option value="hamster"></option>
+                            <option value="parrot"></option>
+                            <option value="spider"></option>
+                            <option value="goldfish"></option>
+                        </select>
+                        <img src="/FrontEnd/images/nav-bar-avatar.svg" alt="" class="nav-icon" />
+                    </div>
+            </nav>
+        </header>
+
+        <!-- SIDE BAR SECTION================================ -->
+        <section class="side-bar">
+            <div class="creator-navigation">
+
+
+                <div class="side-bar-item">
+                    <img src="/FrontEnd/icons/home.svg" alt="" class="side-bar-icon">
+                    <a href="/FrontEnd/pages/authenticated-home-page.html" class="side-bar-link">Home</a>
+                </div>
+
+
+                <div class="side-bar-item">
+                    <img src="/FrontEnd/icons/video-icon-inactive.svg" alt="" class="side-bar-icon">
+                    <a href="/FrontEnd/pages/my-list.html" class="side-bar-link">Video</a>
+                </div>
+
+
+
+                <div class="side-bar-item">
+                    <img src="/FrontEnd/icons/library-icon-inactive.svg" alt="" class="side-bar-icon">
+                    <a href="/FrontEnd/pages/watch-video.html" class="side-bar-link">Libraries</a>
+                </div>
+
+
+
+
+            </div>
+            <div class="creator-settings">
+                <div class="setting-container">
+                    <div class="side-bar-item-creator setting">
                         <img src="/FrontEnd/icons/creator-setting-icon.svg" alt="" class="side-bar-icon">
-                        <a href="" class="side-bar-link">profile</a>
+                        <a href="/FrontEnd/pages/settings.html" class="side-bar-link ">Settings</a>
                     </div>
 
-                    <div class="setting-sub-item">
-                        <img src="/FrontEnd/icons/notification-inactive.svg" alt="" class="side-bar-icon">
-                        <a href="" class="side-bar-link">Notification</a>
+                    <div class="settings">
+                        <div class="setting-sub-item">
+                            <img src="/FrontEnd/icons/creator-setting-icon.svg" alt="" class="side-bar-icon">
+                            <a href="/FrontEnd/pages/creator-about-page.html" class="side-bar-link">profile</a>
+                        </div>
+
+                        <div class="setting-sub-item">
+                            <img src="/FrontEnd/icons/notification-inactive.svg" alt="" class="side-bar-icon">
+                            <a href="/FrontEnd/pages/n_notifications.html" class="side-bar-link">Notification</a>
+                        </div>
+
+
+                        <div class="setting-sub-item">
+                            <img src="/FrontEnd/icons/privacy-inactive.svg" alt="" class="side-bar-icon">
+                            <a href="/FrontEnd/pages/privacy.html" class="side-bar-link">Privacy</a>
+                        </div>
+
+
+                        <div class="setting-sub-item">
+                            <img src="/FrontEnd/icons/password-icon-inactive.svg" alt="" class="side-bar-icon">
+                            <a href="/FrontEnd/pages/changePass.html" class="side-bar-link">password</a>
+                        </div>
+
                     </div>
+                </div>
 
 
-                    <div class="setting-sub-item">
-                        <img src="/FrontEnd/icons/privacy-inactive.svg" alt="" class="side-bar-icon">
-                        <a href="" class="side-bar-link">Privacy</a>
-                    </div>
+
+                <div class="side-bar-item-creator">
+                    <img src="/FrontEnd/icons/help-icon.svg" alt="" class="side-bar-icon">
+                    <a href="/FrontEnd/pages/help-center1.html" class="side-bar-link">Help</a>
+                </div>
 
 
-                    <div class="setting-sub-item">
-                        <img src="/FrontEnd/icons/password-icon-inactive.svg" alt="" class="side-bar-icon">
-                        <a href="" class="side-bar-link">password</a>
-                    </div>
 
+                <div class="side-bar-item-creator">
+                    <img src="/FrontEnd/icons/logout-inactive.svg" alt="" class="side-bar-icon">
+                    <a href="/FrontEnd/pages/logout.html" class="side-bar-link">Log Out</a>
                 </div>
             </div>
-
-
-
-            <div class="side-bar-item-creator">
-                <img src="/FrontEnd/icons/help-icon.svg" alt="" class="side-bar-icon">
-                <a href="" class="side-bar-link">Help</a>
-            </div>
-
-
-
-            <div class="side-bar-item-creator">
-                <img src="/FrontEnd/icons/logout-inactive.svg" alt="" class="side-bar-icon">
-                <a href="" class="side-bar-link">Log Out</a>
-            </div>
-        </div>
-    </section>
+        </section>
 
 
     <section class="main-content-container">
@@ -135,7 +139,7 @@
             <h3>How can we be of help today</h3>
 
             <div class="faq-search">
-                <div class="search-bar">
+                <div class="faq-search-bar">
                     <img src="/FrontEnd/icons/search-icon.svg" alt="" />
                     <input type="search" name="search" id="search" placeholder="Describe your issue" />
                 </div>
@@ -151,7 +155,7 @@
             <hr>
                 <p class="need-help">Need more help? ask the community</p>
                 <div class="faq-search">
-                    <div class="search-bar">
+                    <div class="faq-search-bar">
                         <img src="/FrontEnd/icons/search-icon.svg" alt="" />
                         <input type="search" name="search" id="search" placeholder="What do you want to know" />
                     </div>
@@ -168,7 +172,7 @@
                         </div>
 
     </section>
-
+<script src="/FrontEnd/javascript/creator-dashboard.js"></script>
 </body>
 
 </html>

@@ -93,7 +93,8 @@ select {
   align-items: center;
   gap: 10px;
 }
-.menu-icon {
+.menu-icon,
+.creator-menu-icon {
   display: none;
 }
 .logo p {
@@ -123,7 +124,10 @@ select {
   padding: 0.6em 1em;
   border-radius: 6px;
 }
-
+.search-account .notification-icon,
+.search-account .search-icon {
+  display: none;
+}
 /* THE ABOVE LINE OF CODES IS FOR SIGN UP/SIGN IN UP NAV BAR */
 
 /* SIGN IN FORM  */
@@ -708,7 +712,8 @@ select {
   padding: 4em;
 }
 
-.search-bar {
+.search-bar,
+.faq-search-bar {
   width: 61%;
   height: 50px;
   border: 2px solid #585860;
@@ -1252,8 +1257,41 @@ select {
     width: 280px;
     height: 120px;
   }
+
+  .user-name {
+    font-size: 1.8rem;
+  }
+  .user-profile-pic {
+    width: 70px;
+  }
+  .category-card-thmb {
+    height: 120px;
+  }
 }
 
+@media (max-width: 1100px) {
+  .side-bar {
+    display: none;
+  }
+
+  .main-content-container {
+    padding: 6em 0 3em 0;
+    width: 80%;
+    margin: auto;
+  }
+  .menu-icon,
+  .creator-menu-icon {
+    display: inline;
+  }
+  .side-bar {
+    width: 30%;
+    background: var(--background);
+    z-index: 100;
+  }
+  .creator-settings {
+    background: var(--background);
+  }
+}
 /* screen size between 1000px to 600px ================= */
 @media (max-width: 1000px) {
   .navbar {
@@ -1282,6 +1320,18 @@ select {
   }
   .dashboard-h3 {
     margin: 1.4em 0;
+  }
+  .category {
+    width: 100%;
+  }
+  .category-card-thmb {
+    height: 100px;
+  }
+  .continue-watching-btn {
+    top: 35%;
+  }
+  .user-profile-container {
+    width: 45%;
   }
 }
 @media (max-width: 900px) {
@@ -1336,6 +1386,19 @@ select {
   }
   .video-playing-section {
     width: 100%;
+  }
+  .user-profile-container {
+    width: 50%;
+  }
+  .continue-watching-btn {
+    display: none;
+  }
+  .category-card-thmb {
+    height: 100px;
+  }
+
+  .category-card-section {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -1477,6 +1540,55 @@ select {
   .video-description {
     display: block;
   }
+
+  .user-profile-container {
+    width: 80%;
+  }
+  .continue-watching-btn {
+    display: inline;
+    top: 40%;
+  }
+  .category-card-thmb {
+    height: 120px;
+  }
+
+  .category-card-section {
+    grid-template-columns: 1fr 1fr;
+  }
+  .side-bar {
+    width: 35%;
+  }
+  .creator-settings,
+  .creator-navigation {
+    padding-left: 2em;
+  }
+  .search-bar {
+    display: none;
+  }
+  .search-icon,
+  .notification-icon {
+    display: inline;
+  }
+  .search-account {
+    justify-content: flex-end;
+    width: 40%;
+  }
+  .navbar-user {
+    padding: 0 2em;
+  }
+
+  .error-img {
+    width: 300px;
+  }
+  .error-message {
+    width: 80%;
+  }
+  .faq-search-bar {
+    width: 100%;
+  }
+  .faq-btn {
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1567,5 +1679,76 @@ select {
   .impression-icons img,
   .impression-section img {
     width: 20px;
+  }
+
+  .user-profile-container {
+    width: 100%;
+  }
+  .user-profile.pic {
+    width: 80px;
+  }
+  .continue-watching-btn {
+    display: inline;
+    top: 55%;
+  }
+  .category-card-thmb {
+    height: 180px;
+  }
+
+  .category-card-section {
+    grid-template-columns: 1fr;
+  }
+  .side-bar {
+    width: 45%;
+  }
+  .creator-settings,
+  .creator-navigation {
+    padding-left: 2em;
+  }
+  .search-bar {
+    display: none;
+  }
+  .search-icon,
+  .notification-icon {
+    display: inline;
+  }
+
+  .navbar-user {
+    padding: 0 2em;
+  }
+
+  .tab-content {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .category-title {
+    font-size: 1.2em;
+    font-weight: 600px;
+  }
+
+  .img-div img {
+    width: 100%;
+  }
+
+  .video-preview-container {
+    width: 100%;
+  }
+
+  .notification-title {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .small_text {
+    font-size: 0.8rem;
+  }
+
+  .error-img {
+    width: 250px;
+  }
+  .error-message {
+    width: 80%;
+  }
+  .faq-btn {
+    font-size: 0.8rem;
   }
 }

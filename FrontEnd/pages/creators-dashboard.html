@@ -19,28 +19,20 @@
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Creator's Dashboard Page</title>
-        <link rel="stylesheet" href="" />
-    </head>
-
-    <body>
+   
         <header>
             <nav class="navbar-user">
                 <div class="logo-menu">
 
-                    <img src="/FrontEnd/icons/menu-icon.svg" alt="" class="menu-icon" />
+                    <img src="/FrontEnd/icons/menu-icon.svg" alt="" class="creator-menu-icon" />
 
                     <a href=/FrontEnd/pages/authenticated-home-page.html"><img src="/FrontEnd/images/glance-logo-main.svg" alt="" class="logo" /></a>
                 </div>
 
                 <div class="search-account">
+                    <img src="/FrontEnd/icons/notification-inactive.svg" alt="" class="notification-icon">
+
+                    <img src="/FrontEnd/icons/search-icon.svg" alt="" class="search-icon">
                     <div class="search-bar">
                         <img src="/FrontEnd/icons/search-icon.svg" alt="" />
                         <input type="search" name="search" id="search" placeholder="Search" />
@@ -69,13 +61,13 @@
 
                 <div class="side-bar-item">
                     <img src="/FrontEnd/icons/home.svg" alt="" class="side-bar-icon">
-                    <a href="/FrontEnd/pages/creators-dashboard.html" class="side-bar-link">Home</a>
+                    <a href="/FrontEnd/pages/authenticated-home-page.html" class="side-bar-link">Home</a>
                 </div>
 
 
                 <div class="side-bar-item">
                     <img src="/FrontEnd/icons/video-icon-inactive.svg" alt="" class="side-bar-icon">
-                    <a href="/FrontEnd/pages/creator-playlist.html" class="side-bar-link">Your video</a>
+                    <a href="/FrontEnd/pages/my-list.html" class="side-bar-link">Video</a>
                 </div>
 
 
@@ -91,9 +83,9 @@
             </div>
             <div class="creator-settings">
                 <div class="setting-container">
-                    <div class="side-bar-item-creator">
+                    <div class="side-bar-item-creator setting">
                         <img src="/FrontEnd/icons/creator-setting-icon.svg" alt="" class="side-bar-icon">
-                        <a href="/FrontEnd/pages/settings.html" class="side-bar-link">Settings</a>
+                        <a href="/FrontEnd/pages/settings.html" class="side-bar-link ">Settings</a>
                     </div>
 
                     <div class="settings">
@@ -133,7 +125,7 @@
 
                 <div class="side-bar-item-creator">
                     <img src="/FrontEnd/icons/logout-inactive.svg" alt="" class="side-bar-icon">
-                    <a href="/FrontEnd/pages/n_logout.html" class="side-bar-link">Log Out</a>
+                    <a href="/FrontEnd/pages/logout.html" class="side-bar-link">Log Out</a>
                 </div>
             </div>
         </section>
@@ -144,7 +136,7 @@
 
             <!-- user profile container ============== -->
             <div class="user-profile-container">
-                <img src="/FrontEnd/images/user-profile.svg" alt="" class="user-profile.pic">
+                <img src="/FrontEnd/images/user-profile.svg" alt="" class="user-profile-pic">
                 <div class="user-details">
                     <h1 class="user-name">Jennifer Tilly</h1>
                     <div class="sub-vid">
@@ -451,10 +443,7 @@
             <!-- end of creator home section ============== -->
 
         </section>
-
-    </body>
-
-    </html>
+<script src="/FrontEnd/javascript/creator-dashboard.js"></script>
 </body>
 
 </html>

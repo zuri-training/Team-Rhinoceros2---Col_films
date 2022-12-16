@@ -1,8 +1,9 @@
 "use strict";
 // prompt("hello world");
 const menuIcon = document.querySelector(".menu-icon");
+const creatorMenuIcon = document.querySelector(".creator-menu-icon");
 const navUlVisible = document.querySelector(".nav-ul-visible");
-const notifiactionIcon = document.querySelector(".notification-icon");
+const notificationIcon = document.querySelector(".notification-icon");
 
 const notificationContainer = document.querySelector(".notification-container");
 
@@ -15,7 +16,7 @@ menuIcon.addEventListener("click", function () {
     navUlVisible.style.display = "none";
   }
 });
-notifiactionIcon.addEventListener("click", function () {
+notificationIcon.addEventListener("click", function () {
   console.log("i was clicked");
   if (notificationContainer.style.display === "none") {
     console.log("i was clicked");
@@ -32,3 +33,4 @@ searchIcon.addEventListener("click", function () {
     navSearch.style.display = "none";
   }
 });
+// prompt("hello-word");
