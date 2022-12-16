@@ -111,7 +111,7 @@ Email - josephudokae@gmail.com<br>
 2. **Nmesoma Ofortube** - Assistant Team lead <br>
 Github-  https://github.com/xxx<br>
 Track - Product Design<br>
-Email - xxxg@gmail.com<br>
+Email - @gmail.com<br>
 2. **Daniel Andara Innocent** - Assistant Team lead <br>
 Github-  https://github.com/Andarson-Brel<br>
 Track - Front End<br>
@@ -145,14 +145,14 @@ Email - inalegwuhannah@gmail.com<br>
 Track - Full Stack NodeJS<br>
 Email - ali.marwanaabdou@etu.uae.ac.ma<br>
 11. **Umar Farouk Ilyas**  <br>
-Track - Backend <br>
+Track - Full Stack NodeJS <br>
 Email - yasmarfaq@yahoo.com
 12. **Michael Alade** <br>
 Track - Product Design <br>
 Email - msremmurd@gmail.com
 13. **Oladetohun oluwakorede Emmanuel** <br>
-Track - Fullstack Nodejs
-Email - oladetohunoluwakorede@gmail.com
+Track - Full Stack NodeJS
+Email - oladetohunoluwakorede@gmail.com <br>
 14. **Yusuf Adekola** <br>
 Track Product Design <br>
 Email: adekolayusuph42@gmail.com <br>
