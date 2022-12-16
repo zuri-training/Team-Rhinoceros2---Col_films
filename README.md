@@ -1,8 +1,12 @@
 [**Team-Rhinoceros2---Col_films**](https://github.com/zuri-training/Team-Rhinoceros2---Col_films)
 
 # Documentation 
-**Initial Documentation** - https://docs.google.com/document/d/1wRj2RmZevcUaIDORZ8hcdvbOzsZ7VIZl6JaFopN_Lfs/edit?usp=drivesdk
+**Initial Documentation** - https://docs.google.com/document/d/1wRj2RmZevcUaIDORZ8hcdvbOzsZ7VIZl6JaFopN_Lfs/edit?usp=drivesdk <br>
 **Final Documentation** - https://docs.google.com/document/d/1Ade4GLuJo-tNt8V-AcJFqBCYGJb5CRpB5EEVj-yAeAM/edit?usp=drivesdk
+
+# Hosting Link 
+https://team-rhinoceros2-col-films.vercel.app/
+
 # DataSchema
 
 ![DataSchema](./dataSchema/dataSchema.jpg)
