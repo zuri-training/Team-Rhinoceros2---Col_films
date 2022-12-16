@@ -1630,7 +1630,7 @@ select {
     top: 0;
   }
   .dashboard-thmb {
-    width: 140px;
+    width: 120px;
     height: 80px;
   }
   .dashboard-h3 {
@@ -1749,6 +1749,58 @@ select {
     width: 80%;
   }
   .faq-btn {
+    font-size: 0.8rem;
+  }
+  .slide {
+    width: 80px;
+  }
+  .landingpage-slider-h1 {
+    font-size: 2em;
+  }
+  .right-slide-icon,
+  .left-slide-icon {
+    width: 50px;
+    bottom: 20%;
+  }
+  .section-four-h2 {
+    font-size: 1.4rem;
+    font-weight: 900;
+  }
+  .dashboard-slider {
+    gap: 0;
+  }
+  .dashboard-card {
+    margin-right: 20px;
+  }
+
+  .title-p {
+    font-size: 0.8rem;
+  }
+  .explore-slider {
+    gap: 0;
+  }
+  .explore-card,
+  .top-10-card {
+    margin: 15px;
+  }
+  .user-name {
+    font-size: 1.5rem;
+  }
+  .subscribers,
+  .vids-number {
+    font-size: 0.8rem;
+  }
+  .upload-request {
+    font-size: 2rem;
+  }
+  .upload-btn {
+    padding: 1em;
+    margin: 1em 0;
+  }
+  .upload-container {
+    padding: 1em;
+  }
+  .description-upload {
     font-size: 0.8rem;
   }
 }
