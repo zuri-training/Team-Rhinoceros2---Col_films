@@ -110,7 +110,7 @@ Track - Product Design<br>
 Email - josephudokae@gmail.com<br>
 2. **Nmesoma Ofortube** - Assistant Team lead <br>
 Github-  https://github.com/xxx<br>
-Track - xxx<br>
+Track - Product Design<br>
 Email - xxxg@gmail.com<br>
 2. **Daniel Andara Innocent** - Assistant Team lead <br>
 Github-  https://github.com/Andarson-Brel<br>
@@ -123,7 +123,7 @@ Email - desmaachieng@gmail.com<br>
 3. **Janet Busayo**  <br>
 Track - Product Design<br>
 Email - busayojanet2017@gmail.com<br>
-4. **Itan**  <br>
+4. **Enitan Timothy Falade**  <br>
 Track - Product Design<br>
 Email - itandesigns@gmail.com<br>
 5. **Aduralere Ashade**  <br>
@@ -147,14 +147,15 @@ Email - ali.marwanaabdou@etu.uae.ac.ma<br>
 11. **Umar Farouk Ilyas**  <br>
 Track - Backend <br>
 Email - yasmarfaq@yahoo.com
-12. **Ogechi Vinaprisca Amadi** <br>
-Track: Frontend <br>
-Email - vinaprisca@gmail.com
-13. **oladetohun oluwakorede Emmanuel**
-
-    Track -Fullstack Nodejs
-
-    Email: oladetohunoluwakorede@gmail.com
+12. **Michael Alade** <br>
+Track - Product Design <br>
+Email - msremmurd@gmail.com
+13. **Oladetohun oluwakorede Emmanuel** <br>
+Track - Fullstack Nodejs
+Email - oladetohunoluwakorede@gmail.com
+14. **Yusuf Adekola** <br>
+Track Product Design <br>
+Email: adekolayusuph42@gmail.com <br>
 # Documentation
 A more detailed documentation on the updates,features and details of this project can be found [Here](https://docs.google.com/document/u/0/d/1wRj2RmZevcUaIDORZ8hcdvbOzsZ7VIZl6JaFopN_Lfs/mobilebasic "Here")
 # Design
