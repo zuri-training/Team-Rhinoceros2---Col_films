@@ -52,7 +52,7 @@
 
       <!-- FORM SECTION=============================== -->
       <div class="sign-up-form-warpper">
-        <form action="" name="sign-Up">
+        <form action="signUp3.html" name="sign-Up">
           <div class="form-grid">
             <!-- to arrange the form into two column lyaout using grid -->
             <div class="student-question">
@@ -62,6 +62,7 @@
                   type="checkbox"
                   class="yes"
                   id="student-yes"
+                  required
                 />Yes</label
               >
 
@@ -73,7 +74,12 @@
             <div class="student-question">
               <p>Are you a student?</p>
               <label for="student-no"
-                ><input type="checkbox" class="yes" id="student-no" />Yes</label
+                ><input
+                  type="checkbox"
+                  class="yes"
+                  id="student-no"
+                  required
+                />Yes</label
               >
 
               <label for="student-no"
@@ -87,7 +93,7 @@
                 alt=""
                 class="input-icon"
               />
-              <select name="schools" id="schools" class="select-form">
+              <select name="schools" id="schools" class="select-form" required>
                 <option value="select school">Select School</option>
                 <option value="saab">Select School</option>
                 <option value="mercedes">Select School</option>
@@ -116,7 +122,12 @@
                 alt=""
                 class="input-icon"
               />
-              <input type="text" placeholder="Course Of Study" for="email" />
+              <input
+                type="text"
+                placeholder="Course Of Study"
+                for="email"
+                required
+              />
             </div>
 
             <div class="input-div">
@@ -127,9 +138,10 @@
                 class="input-icon"
               />
               <input
-                type="number"
+                type="test"
                 placeholder="School Website"
-                for="phone-number"
+                for="school website"
+                required
               />
             </div>
 
@@ -140,7 +152,7 @@
                 alt=""
                 class="input-icon"
               />
-              <select name="schools" id="schools" class="select-form">
+              <select name="schools" id="schools" class="select-form" required>
                 <option value="Level of study">Level of Study</option>
                 <option value="saab">100L</option>
                 <option value="mercedes">200L</option>
@@ -157,7 +169,7 @@
                 alt=""
                 class="input-icon"
               />
-              <select name="schools" id="schools" class="select-form">
+              <select name="schools" id="schools" class="select-form" required>
                 <option value="Level of study">Expected Graduation year</option>
                 <option value="saab">100L</option>
                 <option value="mercedes">200L</option>
@@ -167,20 +179,19 @@
               </select>
             </div>
           </div>
-        </form>
-        <div class="outer-form-container">
           <div class="policy-container">
             <label for="policy"
-              ><input type="checkbox" class="policy" id="policy" />
+              ><input type="checkbox" class="policy" id="policy" required />
             </label>
             <span
               >I agree that I have read, understand, and fully agree to Glance
               terms of service and privacy policy.</span
             >
           </div>
-          <a href="signUp3.html" class="sign-up-url">
-            <button type="submit" class="continue-btn">Next</button>
-          </a>
+
+          <button type="submit" class="continue-btn">Next</button>
+        </form>
+        <div class="outer-form-container">
           <br />
           <a href="signIn.html"
             >Alrady have an account? <span class="sign-up-link">Sign In</span>

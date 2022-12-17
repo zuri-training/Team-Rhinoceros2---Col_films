@@ -32,7 +32,8 @@
       <!-- FORM SECTION=============================== -->
       <div class="sign-up-form-warpper">
         <h1 class="form-title">Sign Up</h1>
-        <form action="" name="sign-Up">
+
+        <form action="signUp2.html" name="sign-Up">
           <div class="form-grid">
             <!-- to arrange the form into two column lyaout using grid -->
             <div class="input-div">
@@ -42,7 +43,12 @@
                 alt=""
                 class="input-icon"
               />
-              <input type="text" placeholder="First Name" for="firstname" />
+              <input
+                type="text"
+                placeholder="First Name"
+                for="firstname"
+                required
+              />
             </div>
 
             <div class="input-div">
@@ -52,7 +58,7 @@
                 alt=""
                 class="input-icon"
               />
-              <input type="text" placeholder="Surname" for="surname" />
+              <input type="text" placeholder="Surname" for="surname" required />
             </div>
 
             <div class="input-div">
@@ -62,7 +68,12 @@
                 alt=""
                 class="input-icon"
               />
-              <input type="email" placeholder="Email Address" for="email" />
+              <input
+                type="email"
+                placeholder="Email Address"
+                for="email"
+                required
+              />
             </div>
 
             <div class="input-div">
@@ -76,6 +87,7 @@
                 type="number"
                 placeholder="Phone Number"
                 for="phone-number"
+                required
               />
             </div>
 
@@ -86,7 +98,12 @@
                 alt=""
                 class="input-icon"
               />
-              <input type="password" placeholder="password" for="password" />
+              <input
+                type="password"
+                placeholder="password"
+                for="password"
+                required
+              />
             </div>
 
             <div class="input-div">
@@ -100,24 +117,23 @@
                 type="password"
                 placeholder="Confirm Password"
                 for="password"
+                required
               />
             </div>
           </div>
-        </form>
-        <div class="outer-form-container">
+
           <div class="policy-container">
             <label for="policy"
-              ><input type="checkbox" class="policy" id="policy" />
+              ><input type="checkbox" class="policy" id="policy" required />
             </label>
             <span
               >I agree that I have read, understand, and fully agree to Glance
               terms of service and privacy policy.</span
             >
           </div>
-          <a href="signUp2.html" class="sign-up-url">
-            <button type="submit" class="continue-btn">Continue</button></a
-          >
-
+          <button type="submit" class="continue-btn">Continue</button>
+        </form>
+        <div class="outer-form-container">
           <br />
           <a href="signIn.html"
             >Alrady have an account? <span class="sign-up-link">Sign In</span>

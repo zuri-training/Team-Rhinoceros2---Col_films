@@ -83,6 +83,16 @@
     font-size: 1rem;
     font-weight: 700;
   }
+  .tiny_text {
+    font-size: 0.9rem;
+  }
+
+  .video_preview {
+    gap: 0;
+  }
+  .img-div img {
+    margin-right: 1em !important;
+  }
 }
 .notifications__nav li {
   padding: 0.7rem 1.1rem;
