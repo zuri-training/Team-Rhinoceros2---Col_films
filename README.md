@@ -5,7 +5,7 @@
 **Final Documentation** - https://docs.google.com/document/d/1Xp321kwHoJdPHOnBTix5MNNOBfsxYOUD25CyjsBOvy4/edit?usp=drivesdk
 
 # Hosting Link 
-https://team-rhinoceros2-col-films.vercel.app/
+https://team-rhinoceros2-col-films-xi.vercel.app/
 
 # DataSchema
 
