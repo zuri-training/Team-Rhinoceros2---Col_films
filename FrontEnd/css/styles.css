@@ -574,6 +574,7 @@ select {
 
   position: relative;
 }
+
 .explore-hero-details {
   position: absolute;
   padding: 4em;
@@ -1599,6 +1600,13 @@ select {
   .faq-btn {
     width: 100%;
   }
+
+  .side-bar-section {
+    width: 100%;
+  }
+  .side-vid-thmb {
+    height: 240px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1611,11 +1619,11 @@ select {
     font-size: 0.8rem;
   }
 
-  .explore-hero img {
+  /* .explore-hero img {
     width: 100%;
     height: inherit;
     object-fit: contain;
-  }
+  } */
   .explore-hero-movie-description {
     margin: 0.5em 0;
   }
@@ -1636,6 +1644,7 @@ select {
     font-size: 3rem;
   }
   .explore-hero-details {
+    width: 90%;
     padding: 0.5em;
     top: 0;
   }
@@ -1791,7 +1800,7 @@ select {
   }
   .explore-card,
   .top-10-card {
-    margin: 15px;
+    margin-right: 15px;
   }
   .user-name {
     font-size: 1.5rem;
@@ -1815,5 +1824,8 @@ select {
   }
   .policy-container span {
     font-size: 0.8rem;
+  }
+  .side-vid-thmb {
+    height: 175px;
   }
 }

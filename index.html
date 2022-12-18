@@ -9,9 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
   </head>
   <body>
     <main class="main">
@@ -57,92 +60,95 @@
       <!-- landing pagethird  section -->
       <section class="landingpage-third-section">
         <h1 class="landingpage-slider-h1">Latest Movies</h1>
-        <div class="landingpage-slider">
+
+        <div class="swiper mySwiper">
+          <div class="landingpage-slider swiper-wrapper">
+            <img
+              src="FrontEnd/images/latest-movie-thmb1.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+
+            <img
+              src="FrontEnd/images/latest-movie-thmb2.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+
+            <img
+              src="FrontEnd/images/latest-movie-thmb3.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+
+            <img
+              src="FrontEnd/images/latest-movie-thmb4.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+
+            <img
+              src="FrontEnd/images/latest-movie-thmb1.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+
+            <img
+              src="FrontEnd/images/latest-movie-thmb2.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+
+            <img
+              src="FrontEnd/images/latest-movie-thmb3.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+
+            <img
+              src="FrontEnd/images/latest-movie-thmb4.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+
+            <img
+              src="FrontEnd/images/latest-movie-thmb1.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+
+            <img
+              src="FrontEnd/images/latest-movie-thmb2.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+
+            <img
+              src="FrontEnd/images/latest-movie-thmb3.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+
+            <img
+              src="FrontEnd/images/latest-movie-thmb4.svg"
+              alt=""
+              class="slide swiper-slide"
+            />
+          </div>
+
+          <!-- landing slider-icon -->
           <img
-            src="FrontEnd/images/latest-movie-thmb1.svg"
+            src="FrontEnd/icons/onboarding-slide-left.svg"
+            class="left-slide-icon swiper-button-prev"
             alt=""
-            class="slide"
           />
 
           <img
-            src="FrontEnd/images/latest-movie-thmb2.svg"
+            src="FrontEnd/icons/onboarding-slide-right.svg"
+            class="right-slide-icon swiper-button-next"
             alt=""
-            class="slide"
-          />
-
-          <img
-            src="FrontEnd/images/latest-movie-thmb3.svg"
-            alt=""
-            class="slide"
-          />
-
-          <img
-            src="FrontEnd/images/latest-movie-thmb4.svg"
-            alt=""
-            class="slide"
-          />
-
-          <img
-            src="FrontEnd/images/latest-movie-thmb1.svg"
-            alt=""
-            class="slide"
-          />
-
-          <img
-            src="FrontEnd/images/latest-movie-thmb2.svg"
-            alt=""
-            class="slide"
-          />
-
-          <img
-            src="FrontEnd/images/latest-movie-thmb3.svg"
-            alt=""
-            class="slide"
-          />
-
-          <img
-            src="FrontEnd/images/latest-movie-thmb4.svg"
-            alt=""
-            class="slide"
-          />
-
-          <img
-            src="FrontEnd/images/latest-movie-thmb1.svg"
-            alt=""
-            class="slide"
-          />
-
-          <img
-            src="FrontEnd/images/latest-movie-thmb2.svg"
-            alt=""
-            class="slide"
-          />
-
-          <img
-            src="FrontEnd/images/latest-movie-thmb3.svg"
-            alt=""
-            class="slide"
-          />
-
-          <img
-            src="FrontEnd/images/latest-movie-thmb4.svg"
-            alt=""
-            class="slide"
           />
         </div>
-
-        <!-- landing slider-icon -->
-        <img
-          src="FrontEnd/icons/onboarding-slide-left.svg"
-          class="left-slide-icon"
-          alt=""
-        />
-
-        <img
-          src="FrontEnd/icons/onboarding-slide-right.svg"
-          class="right-slide-icon"
-          alt=""
-        />
       </section>
       <!-- landing page fourth section -->
       <section class="landingpage-fourth-section">
@@ -210,5 +216,24 @@
         </div>
       </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
